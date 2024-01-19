@@ -1,0 +1,92 @@
+[
+  {
+    "sepID": "2024-01-02T23:22:00-SEP-001",
+    "eventTime": "2024-01-02T23:22Z",
+    "instruments": [
+      {
+        "displayName": "SOHO: COSTEP 15.8-39.8 MeV"
+      }
+    ],
+    "linkedEvents": [
+      {
+        "activityID": "2023-12-31T21:40:00-FLR-001"
+      },
+      {
+        "activityID": "2023-12-31T22:00:00-CME-001"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/SEP/28444/-1"
+  },
+  {
+    "sepID": "2024-01-02T23:22:00-SEP-002",
+    "eventTime": "2024-01-02T23:22Z",
+    "instruments": [
+      {
+        "displayName": "SOHO: COSTEP 28.2-50.1 MeV"
+      }
+    ],
+    "linkedEvents": [
+      {
+        "activityID": "2023-12-31T21:40:00-FLR-001"
+      },
+      {
+        "activityID": "2023-12-31T22:00:00-CME-001"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/SEP/28445/-1"
+  },
+  {
+    "sepID": "2024-01-03T00:15:00-SEP-001",
+    "eventTime": "2024-01-03T00:15Z",
+    "instruments": [
+      {
+        "displayName": "MODEL: REleASE:SOHO/EPHIN 15.8-39.8 MeV"
+      }
+    ],
+    "linkedEvents": [
+      {
+        "activityID": "2023-12-31T21:40:00-FLR-001"
+      },
+      {
+        "activityID": "2023-12-31T22:00:00-CME-001"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/SEP/28446/-1"
+  },
+  {
+    "sepID": "2024-01-03T19:10:00-SEP-001",
+    "eventTime": "2024-01-03T19:10Z",
+    "instruments": [
+      {
+        "displayName": "MODEL: REleASE:ACE/EPAM 15.8-39.8 MeV"
+      }
+    ],
+    "linkedEvents": [
+      {
+        "activityID": "2023-12-31T21:40:00-FLR-001"
+      },
+      {
+        "activityID": "2023-12-31T22:00:00-CME-001"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/SEP/28467/-1"
+  },
+  {
+    "sepID": "2024-01-03T20:05:00-SEP-001",
+    "eventTime": "2024-01-03T20:05Z",
+    "instruments": [
+      {
+        "displayName": "GOES-P: SEISS >10 MeV"
+      }
+    ],
+    "linkedEvents": [
+      {
+        "activityID": "2023-12-31T21:40:00-FLR-001"
+      },
+      {
+        "activityID": "2023-12-31T22:00:00-CME-001"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/SEP/28464/-1"
+  }
+]

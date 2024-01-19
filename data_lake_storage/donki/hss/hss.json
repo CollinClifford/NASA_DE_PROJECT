@@ -1,0 +1,20 @@
+[
+  {
+    "hssID": "2023-12-18T17:58:00-HSS-001",
+    "eventTime": "2023-12-18T17:58Z",
+    "instruments": [
+      {
+        "displayName": "DSCOVR: PLASMAG"
+      },
+      {
+        "displayName": "ACE: SWEPAM"
+      }
+    ],
+    "linkedEvents": [
+      {
+        "activityID": "2023-12-21T13:35:00-RBE-001"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/HSS/28257/-1"
+  }
+]

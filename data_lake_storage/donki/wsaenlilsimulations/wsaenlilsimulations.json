@@ -1,0 +1,1138 @@
+[
+  {
+    "simulationID": "WSA-ENLIL/28426/1",
+    "modelCompletionTime": "2024-01-01T05:04Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2023-12-31T22:00Z",
+        "latitude": 1.0,
+        "longitude": -151.0,
+        "speed": 2222.0,
+        "halfAngle": 45.0,
+        "time21_5": "2023-12-31T23:11Z",
+        "isMostAccurate": false,
+        "levelOfData": 0,
+        "ipsList": [
+          {
+            "catalog": null,
+            "activityID": "2024-01-03T14:19:00-IPS-001",
+            "location": "Earth",
+            "eventTime": "2024-01-03T14:19Z",
+            "link": null,
+            "instruments": [
+              {
+                "displayName": "DSCOVR: PLASMAG"
+              },
+              {
+                "displayName": "ACE: SWEPAM"
+              },
+              {
+                "displayName": "ACE: MAG"
+              }
+            ]
+          },
+          {
+            "catalog": null,
+            "activityID": "2024-01-03T15:30:00-IPS-001",
+            "location": "STEREO A",
+            "eventTime": "2024-01-03T15:30Z",
+            "link": null,
+            "instruments": [
+              {
+                "displayName": "STEREO A: IMPACT"
+              },
+              {
+                "displayName": "STEREO A: PLASTIC"
+              }
+            ]
+          }
+        ],
+        "cmeid": "2023-12-31T22:00:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": [
+      {
+        "isGlancingBlow": true,
+        "location": "Mars",
+        "arrivalTime": "2024-01-04T12:00Z"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28426/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/28430/1",
+    "modelCompletionTime": "2024-01-01T15:30Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2023-12-31T22:00Z",
+        "latitude": -14.0,
+        "longitude": -60.0,
+        "speed": 2184.0,
+        "halfAngle": 45.0,
+        "time21_5": "2023-12-31T23:23Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [
+          {
+            "catalog": null,
+            "activityID": "2024-01-03T14:19:00-IPS-001",
+            "location": "Earth",
+            "eventTime": "2024-01-03T14:19Z",
+            "link": null,
+            "instruments": [
+              {
+                "displayName": "DSCOVR: PLASMAG"
+              },
+              {
+                "displayName": "ACE: SWEPAM"
+              },
+              {
+                "displayName": "ACE: MAG"
+              }
+            ]
+          },
+          {
+            "catalog": null,
+            "activityID": "2024-01-03T15:30:00-IPS-001",
+            "location": "STEREO A",
+            "eventTime": "2024-01-03T15:30Z",
+            "link": null,
+            "instruments": [
+              {
+                "displayName": "STEREO A: IMPACT"
+              },
+              {
+                "displayName": "STEREO A: PLASTIC"
+              }
+            ]
+          }
+        ],
+        "cmeid": "2023-12-31T22:00:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": "2024-01-02T18:00Z",
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": 3,
+    "kp_135": 4,
+    "kp_180": 5,
+    "isEarthGB": true,
+    "impactList": [
+      {
+        "isGlancingBlow": false,
+        "location": "Solar Orbiter",
+        "arrivalTime": "2024-01-02T07:00Z"
+      },
+      {
+        "isGlancingBlow": true,
+        "location": "Psyche",
+        "arrivalTime": "2024-01-03T12:30Z"
+      },
+      {
+        "isGlancingBlow": true,
+        "location": "STEREO A",
+        "arrivalTime": "2024-01-02T23:00Z"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28430/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/28431/1",
+    "modelCompletionTime": "2024-01-01T16:28Z",
+    "au": 5.5,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2023-12-31T22:00Z",
+        "latitude": -14.0,
+        "longitude": -60.0,
+        "speed": 2184.0,
+        "halfAngle": 45.0,
+        "time21_5": "2023-12-31T23:23Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [
+          {
+            "catalog": null,
+            "activityID": "2024-01-03T14:19:00-IPS-001",
+            "location": "Earth",
+            "eventTime": "2024-01-03T14:19Z",
+            "link": null,
+            "instruments": [
+              {
+                "displayName": "DSCOVR: PLASMAG"
+              },
+              {
+                "displayName": "ACE: SWEPAM"
+              },
+              {
+                "displayName": "ACE: MAG"
+              }
+            ]
+          },
+          {
+            "catalog": null,
+            "activityID": "2024-01-03T15:30:00-IPS-001",
+            "location": "STEREO A",
+            "eventTime": "2024-01-03T15:30Z",
+            "link": null,
+            "instruments": [
+              {
+                "displayName": "STEREO A: IMPACT"
+              },
+              {
+                "displayName": "STEREO A: PLASTIC"
+              }
+            ]
+          }
+        ],
+        "cmeid": "2023-12-31T22:00:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": [
+      {
+        "isGlancingBlow": false,
+        "location": "Juno",
+        "arrivalTime": "2024-01-11T00:18Z"
+      },
+      {
+        "isGlancingBlow": false,
+        "location": "Solar Orbiter",
+        "arrivalTime": "2024-01-02T07:21Z"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28431/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/28448/1",
+    "modelCompletionTime": "2024-01-02T00:57Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2023-12-31T10:00Z",
+        "latitude": 26.0,
+        "longitude": 50.0,
+        "speed": 671.0,
+        "halfAngle": 47.0,
+        "time21_5": "2023-12-31T15:49Z",
+        "isMostAccurate": false,
+        "levelOfData": 1,
+        "ipsList": [
+          {
+            "catalog": null,
+            "activityID": "2024-01-02T21:20:00-IPS-001",
+            "location": "STEREO A",
+            "eventTime": "2024-01-02T21:20Z",
+            "link": null,
+            "instruments": [
+              {
+                "displayName": "STEREO A: IMPACT"
+              },
+              {
+                "displayName": "STEREO A: PLASTIC"
+              }
+            ]
+          },
+          {
+            "catalog": null,
+            "activityID": "2024-01-03T04:50:00-IPS-001",
+            "location": "Earth",
+            "eventTime": "2024-01-03T04:50Z",
+            "link": null,
+            "instruments": [
+              {
+                "displayName": "DSCOVR: PLASMAG"
+              }
+            ]
+          }
+        ],
+        "cmeid": "2023-12-31T10:00:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": "2024-01-03T09:00Z",
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": 2,
+    "kp_135": 3,
+    "kp_180": 3,
+    "isEarthGB": true,
+    "impactList": [
+      {
+        "isGlancingBlow": false,
+        "location": "OSIRIS-APEX",
+        "arrivalTime": "2024-01-01T18:47Z"
+      },
+      {
+        "isGlancingBlow": false,
+        "location": "STEREO A",
+        "arrivalTime": "2024-01-03T08:02Z"
+      },
+      {
+        "isGlancingBlow": true,
+        "location": "Psyche",
+        "arrivalTime": "2024-01-04T14:00Z"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28448/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/28439/1",
+    "modelCompletionTime": "2024-01-02T18:23Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-01-02T11:09Z",
+        "latitude": -22.0,
+        "longitude": 122.0,
+        "speed": 617.0,
+        "halfAngle": 40.0,
+        "time21_5": "2024-01-02T16:23Z",
+        "isMostAccurate": true,
+        "levelOfData": 1,
+        "ipsList": [],
+        "cmeid": "2024-01-02T11:09:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": [
+      {
+        "isGlancingBlow": true,
+        "location": "Mars",
+        "arrivalTime": "2024-01-07T03:00Z"
+      },
+      {
+        "isGlancingBlow": true,
+        "location": "OSIRIS-APEX",
+        "arrivalTime": "2024-01-04T06:00Z"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28439/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/28457/1",
+    "modelCompletionTime": "2024-01-03T17:34Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-01-03T03:24Z",
+        "latitude": -4.0,
+        "longitude": 112.0,
+        "speed": 413.0,
+        "halfAngle": 41.0,
+        "time21_5": "2024-01-03T11:57Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-01-03T03:24:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": [
+      {
+        "isGlancingBlow": true,
+        "location": "Mars",
+        "arrivalTime": "2024-01-08T04:00Z"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28457/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/28474/1",
+    "modelCompletionTime": "2024-01-04T14:22Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-01-03T23:24Z",
+        "latitude": -6.0,
+        "longitude": 115.0,
+        "speed": 383.0,
+        "halfAngle": 33.0,
+        "time21_5": "2024-01-04T09:05Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-01-03T23:24:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": [
+      {
+        "isGlancingBlow": true,
+        "location": "Mars",
+        "arrivalTime": "2024-01-09T04:00Z"
+      },
+      {
+        "isGlancingBlow": true,
+        "location": "OSIRIS-APEX",
+        "arrivalTime": "2024-01-05T18:00Z"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28474/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/28479/1",
+    "modelCompletionTime": "2024-01-04T14:51Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-01-04T00:00Z",
+        "latitude": 18.0,
+        "longitude": -163.0,
+        "speed": 732.0,
+        "halfAngle": 45.0,
+        "time21_5": "2024-01-04T04:31Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-01-04T00:00:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": [
+      {
+        "isGlancingBlow": true,
+        "location": "Mars",
+        "arrivalTime": "2024-01-09T00:00Z"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28479/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/28480/1",
+    "modelCompletionTime": "2024-01-04T17:55Z",
+    "au": 5.5,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-01-04T00:00Z",
+        "latitude": 18.0,
+        "longitude": -163.0,
+        "speed": 732.0,
+        "halfAngle": 45.0,
+        "time21_5": "2024-01-04T04:31Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-01-04T00:00:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": null,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28480/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/28484/1",
+    "modelCompletionTime": "2024-01-04T22:22Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-01-04T01:36Z",
+        "latitude": 24.0,
+        "longitude": -121.0,
+        "speed": 893.0,
+        "halfAngle": 22.0,
+        "time21_5": "2024-01-04T06:53Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-01-04T01:36:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": null,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28484/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/28488/1",
+    "modelCompletionTime": "2024-01-05T17:57Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-01-05T01:53Z",
+        "latitude": -14.0,
+        "longitude": -32.0,
+        "speed": 552.0,
+        "halfAngle": 22.0,
+        "time21_5": "2024-01-05T07:49Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-01-05T01:53:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": [
+      {
+        "isGlancingBlow": true,
+        "location": "Solar Orbiter",
+        "arrivalTime": "2024-01-07T20:00Z"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28488/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/28492/1",
+    "modelCompletionTime": "2024-01-05T22:08Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-01-04T17:00Z",
+        "latitude": -45.0,
+        "longitude": -90.0,
+        "speed": 364.0,
+        "halfAngle": 40.0,
+        "time21_5": "2024-01-05T02:53Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-01-04T17:00:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": null,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28492/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/28501/1",
+    "modelCompletionTime": "2024-01-05T22:52Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-01-05T09:48Z",
+        "latitude": -33.0,
+        "longitude": -90.0,
+        "speed": 494.0,
+        "halfAngle": 14.0,
+        "time21_5": "2024-01-05T17:00Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-01-05T09:48:00-CME-001"
+      },
+      {
+        "cmeStartTime": "2024-01-05T08:12Z",
+        "latitude": -24.0,
+        "longitude": -90.0,
+        "speed": 399.0,
+        "halfAngle": 16.0,
+        "time21_5": "2024-01-05T17:41Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-01-05T08:12:00-CME-001"
+      },
+      {
+        "cmeStartTime": "2024-01-05T06:12Z",
+        "latitude": -16.0,
+        "longitude": -90.0,
+        "speed": 315.0,
+        "halfAngle": 11.0,
+        "time21_5": "2024-01-05T19:00Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-01-05T06:12:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": null,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28501/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/28502/1",
+    "modelCompletionTime": "2024-01-05T23:07Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-01-04T23:24Z",
+        "latitude": -22.0,
+        "longitude": -104.0,
+        "speed": 384.0,
+        "halfAngle": 10.0,
+        "time21_5": "2024-01-05T09:03Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-01-04T23:24:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": null,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28502/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/28510/1",
+    "modelCompletionTime": "2024-01-06T23:12Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-01-06T08:12Z",
+        "latitude": -10.0,
+        "longitude": -15.0,
+        "speed": 706.0,
+        "halfAngle": 10.0,
+        "time21_5": "2024-01-06T12:19Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-01-06T08:12:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": "2024-01-09T02:00Z",
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": 2,
+    "kp_135": 3,
+    "kp_180": 4,
+    "isEarthGB": true,
+    "impactList": [
+      {
+        "isGlancingBlow": true,
+        "location": "Psyche",
+        "arrivalTime": "2024-01-10T08:00Z"
+      },
+      {
+        "isGlancingBlow": true,
+        "location": "Solar Orbiter",
+        "arrivalTime": "2024-01-09T08:00Z"
+      },
+      {
+        "isGlancingBlow": true,
+        "location": "STEREO A",
+        "arrivalTime": "2024-01-09T02:00Z"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28510/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/28521/1",
+    "modelCompletionTime": "2024-01-07T20:59Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-01-06T17:36Z",
+        "latitude": 26.0,
+        "longitude": -41.0,
+        "speed": 451.0,
+        "halfAngle": 36.0,
+        "time21_5": "2024-01-07T02:10Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-01-06T17:36:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": "2024-01-10T01:00Z",
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": 2,
+    "kp_135": 3,
+    "kp_180": 4,
+    "isEarthGB": true,
+    "impactList": [
+      {
+        "isGlancingBlow": false,
+        "location": "Solar Orbiter",
+        "arrivalTime": "2024-01-09T22:52Z"
+      },
+      {
+        "isGlancingBlow": true,
+        "location": "Psyche",
+        "arrivalTime": "2024-01-11T07:00Z"
+      },
+      {
+        "isGlancingBlow": true,
+        "location": "STEREO A",
+        "arrivalTime": "2024-01-10T00:00Z"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28521/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/28528/1",
+    "modelCompletionTime": "2024-01-08T21:00Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-01-08T13:25Z",
+        "latitude": -32.0,
+        "longitude": -44.0,
+        "speed": 571.0,
+        "halfAngle": 31.0,
+        "time21_5": "2024-01-08T19:05Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-01-08T13:25:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": [
+      {
+        "isGlancingBlow": false,
+        "location": "Solar Orbiter",
+        "arrivalTime": "2024-01-11T20:00Z"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28528/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/28541/1",
+    "modelCompletionTime": "2024-01-10T05:44Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-01-09T06:48Z",
+        "latitude": 31.0,
+        "longitude": 75.0,
+        "speed": 624.0,
+        "halfAngle": 32.0,
+        "time21_5": "2024-01-09T12:38Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-01-09T06:48:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": [
+      {
+        "isGlancingBlow": false,
+        "location": "OSIRIS-APEX",
+        "arrivalTime": "2024-01-10T21:33Z"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28541/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/28545/1",
+    "modelCompletionTime": "2024-01-10T14:42Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-01-09T15:48Z",
+        "latitude": -36.0,
+        "longitude": -26.0,
+        "speed": 674.0,
+        "halfAngle": 41.0,
+        "time21_5": "2024-01-09T21:00Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-01-09T15:48:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": "2024-01-12T09:00Z",
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": 3,
+    "kp_135": 4,
+    "kp_180": 4,
+    "isEarthGB": true,
+    "impactList": [
+      {
+        "isGlancingBlow": true,
+        "location": "Psyche",
+        "arrivalTime": "2024-01-13T12:00Z"
+      },
+      {
+        "isGlancingBlow": true,
+        "location": "Solar Orbiter",
+        "arrivalTime": "2024-01-12T11:00Z"
+      },
+      {
+        "isGlancingBlow": true,
+        "location": "STEREO A",
+        "arrivalTime": "2024-01-12T12:00Z"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28545/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/28550/1",
+    "modelCompletionTime": "2024-01-10T17:45Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-01-09T15:36Z",
+        "latitude": -29.0,
+        "longitude": -91.0,
+        "speed": 580.0,
+        "halfAngle": 34.0,
+        "time21_5": "2024-01-09T22:06Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-01-09T15:36:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": null,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28550/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/28584/1",
+    "modelCompletionTime": "2024-01-11T20:58Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-01-11T08:48Z",
+        "latitude": 15.0,
+        "longitude": -56.0,
+        "speed": 462.0,
+        "halfAngle": 29.0,
+        "time21_5": "2024-01-11T16:40Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-01-11T08:48:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": null,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28584/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/28577/1",
+    "modelCompletionTime": "2024-01-11T21:11Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-01-10T21:09Z",
+        "latitude": -25.0,
+        "longitude": -107.0,
+        "speed": 981.0,
+        "halfAngle": 30.0,
+        "time21_5": "2024-01-11T00:29Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-01-10T21:09:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": null,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28577/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/28602/1",
+    "modelCompletionTime": "2024-01-13T18:12Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-01-12T22:24Z",
+        "latitude": -24.0,
+        "longitude": -117.0,
+        "speed": 895.0,
+        "halfAngle": 23.0,
+        "time21_5": "2024-01-13T02:21Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-01-12T22:24:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": null,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28602/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/28613/1",
+    "modelCompletionTime": "2024-01-14T18:43Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-01-14T12:00Z",
+        "latitude": -23.0,
+        "longitude": 105.0,
+        "speed": 948.0,
+        "halfAngle": 37.0,
+        "time21_5": "2024-01-14T15:52Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-01-14T12:00:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": [
+      {
+        "isGlancingBlow": false,
+        "location": "OSIRIS-APEX",
+        "arrivalTime": "2024-01-15T15:37Z"
+      },
+      {
+        "isGlancingBlow": true,
+        "location": "Mars",
+        "arrivalTime": "2024-01-18T07:00Z"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28613/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/28614/1",
+    "modelCompletionTime": "2024-01-14T19:12Z",
+    "au": 5.5,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-01-14T12:00Z",
+        "latitude": -23.0,
+        "longitude": 105.0,
+        "speed": 948.0,
+        "halfAngle": 37.0,
+        "time21_5": "2024-01-14T15:52Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-01-14T12:00:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": [
+      {
+        "isGlancingBlow": false,
+        "location": "OSIRIS-APEX",
+        "arrivalTime": "2024-01-15T15:49Z"
+      },
+      {
+        "isGlancingBlow": false,
+        "location": "Lucy",
+        "arrivalTime": "2024-01-20T08:00Z"
+      },
+      {
+        "isGlancingBlow": true,
+        "location": "Mars",
+        "arrivalTime": "2024-01-18T13:00Z"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28614/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/28633/1",
+    "modelCompletionTime": "2024-01-16T19:35Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-01-15T18:12Z",
+        "latitude": 4.0,
+        "longitude": 140.0,
+        "speed": 639.0,
+        "halfAngle": 25.0,
+        "time21_5": "2024-01-15T23:34Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-01-15T18:12:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": [
+      {
+        "isGlancingBlow": false,
+        "location": "Mars",
+        "arrivalTime": "2024-01-20T04:57Z"
+      },
+      {
+        "isGlancingBlow": true,
+        "location": "OSIRIS-APEX",
+        "arrivalTime": "2024-01-17T13:00Z"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28633/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/28642/1",
+    "modelCompletionTime": "2024-01-17T18:29Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-01-17T03:36Z",
+        "latitude": 18.0,
+        "longitude": -90.0,
+        "speed": 434.0,
+        "halfAngle": 27.0,
+        "time21_5": "2024-01-17T11:39Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-01-17T03:36:00-CME-001"
+      },
+      {
+        "cmeStartTime": "2024-01-17T05:12Z",
+        "latitude": 25.0,
+        "longitude": -90.0,
+        "speed": 432.0,
+        "halfAngle": 28.0,
+        "time21_5": "2024-01-17T13:31Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-01-17T05:12:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": null,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28642/-1"
+  }
+]

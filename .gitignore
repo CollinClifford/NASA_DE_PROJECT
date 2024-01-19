@@ -1,0 +1,13 @@
+# Logs
+*.log
+log.txt
+
+# Environment configuration
+.env
+
+# Compiled source
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db

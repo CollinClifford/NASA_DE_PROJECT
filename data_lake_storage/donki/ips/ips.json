@@ -1,0 +1,140 @@
+[
+  {
+    "catalog": "M2M_CATALOG",
+    "activityID": "2024-01-01T12:22:00-IPS-001",
+    "location": "Earth",
+    "eventTime": "2024-01-01T12:22Z",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/IPS/28458/-1",
+    "instruments": [
+      {
+        "displayName": "DSCOVR: PLASMAG"
+      }
+    ]
+  },
+  {
+    "catalog": "M2M_CATALOG",
+    "activityID": "2024-01-02T00:20:00-IPS-001",
+    "location": "Earth",
+    "eventTime": "2024-01-02T00:20Z",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/IPS/28459/-1",
+    "instruments": [
+      {
+        "displayName": "DSCOVR: PLASMAG"
+      }
+    ]
+  },
+  {
+    "catalog": "M2M_CATALOG",
+    "activityID": "2024-01-02T21:20:00-IPS-001",
+    "location": "STEREO A",
+    "eventTime": "2024-01-02T21:20Z",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/IPS/28468/-1",
+    "instruments": [
+      {
+        "displayName": "STEREO A: IMPACT"
+      },
+      {
+        "displayName": "STEREO A: PLASTIC"
+      }
+    ]
+  },
+  {
+    "catalog": "M2M_CATALOG",
+    "activityID": "2024-01-03T04:50:00-IPS-001",
+    "location": "Earth",
+    "eventTime": "2024-01-03T04:50Z",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/IPS/28450/-1",
+    "instruments": [
+      {
+        "displayName": "DSCOVR: PLASMAG"
+      }
+    ]
+  },
+  {
+    "catalog": "M2M_CATALOG",
+    "activityID": "2024-01-03T14:19:00-IPS-001",
+    "location": "Earth",
+    "eventTime": "2024-01-03T14:19Z",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/IPS/28452/-1",
+    "instruments": [
+      {
+        "displayName": "DSCOVR: PLASMAG"
+      },
+      {
+        "displayName": "ACE: SWEPAM"
+      },
+      {
+        "displayName": "ACE: MAG"
+      }
+    ]
+  },
+  {
+    "catalog": "M2M_CATALOG",
+    "activityID": "2024-01-03T15:30:00-IPS-001",
+    "location": "STEREO A",
+    "eventTime": "2024-01-03T15:30Z",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/IPS/28546/-1",
+    "instruments": [
+      {
+        "displayName": "STEREO A: IMPACT"
+      },
+      {
+        "displayName": "STEREO A: PLASTIC"
+      }
+    ]
+  },
+  {
+    "catalog": "M2M_CATALOG",
+    "activityID": "2023-12-20T00:26:00-IPS-001",
+    "location": "Earth",
+    "eventTime": "2023-12-20T00:26Z",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/IPS/28267/-1",
+    "instruments": [
+      {
+        "displayName": "DSCOVR: PLASMAG"
+      },
+      {
+        "displayName": "ACE: SWEPAM"
+      },
+      {
+        "displayName": "ACE: MAG"
+      }
+    ]
+  },
+  {
+    "catalog": "M2M_CATALOG",
+    "activityID": "2023-12-27T08:26:00-IPS-001",
+    "location": "Earth",
+    "eventTime": "2023-12-27T08:26Z",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/IPS/28373/-1",
+    "instruments": [
+      {
+        "displayName": "DSCOVR: PLASMAG"
+      },
+      {
+        "displayName": "ACE: SWEPAM"
+      },
+      {
+        "displayName": "ACE: MAG"
+      }
+    ]
+  },
+  {
+    "catalog": "M2M_CATALOG",
+    "activityID": "2023-12-29T11:34:00-IPS-001",
+    "location": "Earth",
+    "eventTime": "2023-12-29T11:34Z",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/IPS/28386/-1",
+    "instruments": [
+      {
+        "displayName": "DSCOVR: PLASMAG"
+      },
+      {
+        "displayName": "ACE: SWEPAM"
+      },
+      {
+        "displayName": "ACE: MAG"
+      }
+    ]
+  }
+]
