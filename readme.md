@@ -79,7 +79,7 @@ As this is largely a learning opportunity for the construction of Data Warehouse
     Create this folder path:
     ```bash
     mkdir logs
-    cd mkdir 
+    cd logs
     touch main.log
 5. **Run the Program:**\
     Execute the bash script:
