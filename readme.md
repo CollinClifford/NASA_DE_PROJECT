@@ -75,7 +75,11 @@ As this is largely a learning opportunity for the construction of Data Warehouse
     DB_PASSWORD=
     DB_PORT=
     SSL_MODE=disable
-4. **Run the Program:**\
+4. **Set up logs folder**\
+    Create this folder path:
+    ```bash
+    mkdir logs & echo. > logs\main.log
+5. **Run the Program:**\
     Execute the bash script:
     ```bash
     python3 ./main.py
