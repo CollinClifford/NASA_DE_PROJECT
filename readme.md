@@ -78,7 +78,9 @@ As this is largely a learning opportunity for the construction of Data Warehouse
 4. **Set up logs folder**\
     Create this folder path:
     ```bash
-    mkdir logs & echo. > logs\main.log
+    mkdir logs
+    cd mkdir 
+    touch main.log
 5. **Run the Program:**\
     Execute the bash script:
     ```bash
