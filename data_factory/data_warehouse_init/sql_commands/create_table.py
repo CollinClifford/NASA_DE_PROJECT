@@ -93,3 +93,74 @@ def ct_hss(cursor):
     """
 
     cursor.execute(create_table_query)
+
+def ct_ips(cursor):
+    create_table_query = """
+    CREATE TABLE donki.ips_raw (
+    id SERIAL PRIMARY KEY,
+    catalog text,
+    activityID text UNIQUE,
+    location text,
+    eventTime date,
+    link text,
+    instruments JSONB
+    )
+    """
+
+    cursor.execute(create_table_query)
+
+def ct_mpc(cursor):
+    create_table_query = """
+    CREATE TABLE donki.mpc_raw (
+    id SERIRAL PRIMARY KEY,
+    mpcID text UNIQUE,
+    eventTime date,
+    instruments JSONB,
+    linkedEvents JSONB,
+    link text
+    )
+    """
+
+    cursor.execute(create_table_query)
+
+def ct_notifications(cursor):
+    create_table_query = """
+    CREATE TABLE donki.notifications_raw (
+    id SERIAL PRIMARY KEY,
+    messageType text,
+    messageID text UNIQUE,
+    messageURL text,
+    messageIssueTime date,
+    messageBody text
+    )
+    """
+
+    cursor.execute(create_table_query)
+
+def ct_rbe(cursor):
+    create_table_query = """
+    CREATE TABLE donki.rbe_raw (
+    id SERIAL PRIMARY KEY,
+    rbeID text UNIQUE,
+    eventTime date,
+    instruments JSONB,
+    linkedEvents JSONB,
+    link text
+    )
+    """
+
+    cursor.execute(create_table_query)
+
+def ct_sep(cursor):
+    create_table_query = """
+    CREATE TABLE donki.sep_raw (
+    id SERIAL PRIMARY KEY,
+    sepID text UNIQUE,
+    eventTime date,
+    instruments JSONB,
+    linkedEvents JSONB,
+    link text
+    )
+    """
+
+    cursor.execute(create_table_query)
