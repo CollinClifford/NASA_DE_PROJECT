@@ -1,0 +1,13 @@
+[
+  {
+    "mpcID": "2024-01-30T07:28:00-MPC-001",
+    "eventTime": "2024-01-30T07:28Z",
+    "instruments": [
+      {
+        "displayName": "MODEL: SWMF"
+      }
+    ],
+    "linkedEvents": null,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/MPC/28896/-1"
+  }
+]

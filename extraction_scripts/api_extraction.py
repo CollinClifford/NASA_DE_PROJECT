@@ -49,7 +49,7 @@ if __name__ == "__main__":
                         logging.error(f"append_to_json function failed: {e}")
             else:
                 try:
-                    data_json = return_json(web_service, api_key, start_date, end_date)
+                    data_json = return_json(web_service, api_key, start_date, end_date, None, None)
                 except Exception as e:
                     logging.error(f"return_json function failed: {e}")
 

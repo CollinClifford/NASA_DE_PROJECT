@@ -88,5 +88,95 @@
       }
     ],
     "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/SEP/28464/-1"
+  },
+  {
+    "sepID": "2024-01-29T05:11:00-SEP-001",
+    "eventTime": "2024-01-29T05:11Z",
+    "instruments": [
+      {
+        "displayName": "STEREO A: IMPACT 13-100 MeV"
+      }
+    ],
+    "linkedEvents": [
+      {
+        "activityID": "2024-01-29T03:54:00-FLR-001"
+      },
+      {
+        "activityID": "2024-01-29T04:38:00-CME-001"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/SEP/28836/-1"
+  },
+  {
+    "sepID": "2024-01-29T05:50:00-SEP-001",
+    "eventTime": "2024-01-29T05:50Z",
+    "instruments": [
+      {
+        "displayName": "MODEL: REleASE:ACE/EPAM 15.8-39.8 MeV"
+      }
+    ],
+    "linkedEvents": [
+      {
+        "activityID": "2024-01-29T03:54:00-FLR-001"
+      },
+      {
+        "activityID": "2024-01-29T04:38:00-CME-001"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/SEP/28840/-1"
+  },
+  {
+    "sepID": "2024-01-29T06:06:00-SEP-001",
+    "eventTime": "2024-01-29T06:06Z",
+    "instruments": [
+      {
+        "displayName": "SOHO: COSTEP 15.8-39.8 MeV"
+      }
+    ],
+    "linkedEvents": [
+      {
+        "activityID": "2024-01-29T03:54:00-FLR-001"
+      },
+      {
+        "activityID": "2024-01-29T04:38:00-CME-001"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/SEP/28844/-1"
+  },
+  {
+    "sepID": "2024-01-29T06:08:00-SEP-001",
+    "eventTime": "2024-01-29T06:08Z",
+    "instruments": [
+      {
+        "displayName": "SOHO: COSTEP 28.2-50.1 MeV"
+      }
+    ],
+    "linkedEvents": [
+      {
+        "activityID": "2024-01-29T03:54:00-FLR-001"
+      },
+      {
+        "activityID": "2024-01-29T04:38:00-CME-001"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/SEP/28845/-1"
+  },
+  {
+    "sepID": "2024-01-29T06:15:00-SEP-001",
+    "eventTime": "2024-01-29T06:15Z",
+    "instruments": [
+      {
+        "displayName": "GOES-P: SEISS >10 MeV"
+      }
+    ],
+    "linkedEvents": [
+      {
+        "activityID": "2024-01-29T03:54:00-FLR-001"
+      },
+      {
+        "activityID": "2024-01-29T04:38:00-CME-001"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/SEP/28842/-1"
   }
 ]
