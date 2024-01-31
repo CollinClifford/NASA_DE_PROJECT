@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 import os
 import logging
 from sql_commands.create_table import *
+from sql_commands.drop_table import *
 
 logging.basicConfig(filename='logs/main.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -53,6 +54,35 @@ def main():
             , ct_mars_rover_photos_spirit(cursor)
             , ct_neows(cursor)
         ]
+
+        drop_table_array = [ 
+            dt_apod(cursor)
+            , dt_cme(cursor)
+            , dt_cme_analysis(cursor)
+            , dt_gst(cursor)
+            , dt_hss(cursor)
+            , dt_ips(cursor)
+            , dt_mpc(cursor)
+            , dt_notifications(cursor)
+            , dt_rbe(cursor)
+            , dt_sep(cursor)
+            , dt_wsaenlilsimulations(cursor)
+            , dt_earth(cursor)
+            , dt_epic_enhanced(cursor)
+            , dt_epic_natural(cursor)
+            , dt_mars_rover_photos_curiosity(cursor)
+            , dt_mars_rover_photos_opportunity(cursor)
+            , dt_mars_rover_photos_perseverance(cursor) 
+            , dt_mars_rover_photos_spirit(cursor)
+            , dt_neows(cursor)
+            ]
+
+        # Runs through array of drop table functions and triggers them.
+        for dt in drop_table_array:
+            try:
+                dt
+            except Exception as e:
+                logging.error(f"An error occured while dropping table: {e}")
 
         # runs through array of create table functions and triggers them.
         for ct in create_table_array:
