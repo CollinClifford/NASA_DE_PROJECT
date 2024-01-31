@@ -1389,5 +1389,18 @@
     "note": "Analysis of the more eastern, brighter portion of this CME, based on the likely backsided source location indicated by geoseismology data - a large active region seen for days in GONG farside imagery and at longitude ~-150 deg on 01-30. With the coronal signatures indicating a backsided region in the SW, we based our swpc_cat analysis with one coronagraph (SOHO LASCO) on the longitude of this likely active region and on the assumption that the half width of the CME is 45 degrees. This analysis is of course uncertain.",
     "catalog": "M2M_CATALOG",
     "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/28900/-1"
+  },
+  {
+    "time21_5": "2024-01-31T06:32Z",
+    "latitude": -4.0,
+    "longitude": -90.0,
+    "halfAngle": 27.0,
+    "speed": 327.0,
+    "type": "S",
+    "isMostAccurate": true,
+    "associatedCMEID": "2024-01-30T19:24:00-CME-001",
+    "note": "",
+    "catalog": "M2M_CATALOG",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/28907/-1"
   }
 ]

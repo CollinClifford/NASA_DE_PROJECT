@@ -7891,5 +7891,38 @@
       }
     ],
     "linkedEvents": null
+  },
+  {
+    "activityID": "2024-01-30T19:24:00-CME-001",
+    "catalog": "M2M_CATALOG",
+    "startTime": "2024-01-30T19:24Z",
+    "sourceLocation": "",
+    "activeRegionNum": null,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CME/28906/-1",
+    "note": "Faint CME obscured by the",
+    "instruments": [
+      {
+        "displayName": "SOHO: LASCO/C2"
+      },
+      {
+        "displayName": "SOHO: LASCO/C3"
+      }
+    ],
+    "cmeAnalyses": [
+      {
+        "time21_5": "2024-01-31T06:32Z",
+        "latitude": -4.0,
+        "longitude": -90.0,
+        "halfAngle": 27.0,
+        "speed": 327.0,
+        "type": "S",
+        "isMostAccurate": true,
+        "note": "",
+        "levelOfData": 0,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/28907/-1",
+        "enlilList": null
+      }
+    ],
+    "linkedEvents": null
   }
 ]
