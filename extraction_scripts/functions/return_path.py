@@ -40,6 +40,6 @@ def return_path(web_service, project_directory):
     elif web_service == 'mars-photos/api/v1/rovers/spirit/photos':
         return os.path.join(project_directory, 'data_lake_storage/mars_rover_photos/spirit/spirit.json')
     elif web_service == 'planetary/earth/assets':
-        return os.path.join(project_directory, 'data_lake_storage/earth/earth/earth.json')
+        return os.path.join(project_directory, 'data_lake_storage/earth/earth.json')
     else:
         return None

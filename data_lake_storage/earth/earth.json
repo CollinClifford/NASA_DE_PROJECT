@@ -1,0 +1,112 @@
+[
+  {
+    "date": "2019-12-23T01:16:05.757000",
+    "id": "LANDSAT/LC08/C01/T1_SR/LC08_107035_20191223",
+    "resource": {
+      "dataset": "LANDSAT/LC08/C01/T1_SR",
+      "planet": "earth"
+    },
+    "service_version": "v5000",
+    "url": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/thumbnails/7ec510cd58348b5d005fab5ec5fd965b-7e7b01f3031bf0b502da5c7c078e4c84:getPixels"
+  },
+  {
+    "date": "2019-12-31T05:25:15.391000",
+    "id": "LANDSAT/LC08/C01/T1_SR/LC08_147040_20191231",
+    "resource": {
+      "dataset": "LANDSAT/LC08/C01/T1_SR",
+      "planet": "earth"
+    },
+    "service_version": "v5000",
+    "url": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/thumbnails/56a60a81ee5dd8b6d8e458b747e0a148-04f203b97652c543842ee1a45574f909:getPixels"
+  },
+  {
+    "date": "2020-01-21T02:25:09.444000",
+    "id": "LANDSAT/LC08/C01/T1_SR/LC08_118038_20200121",
+    "resource": {
+      "dataset": "LANDSAT/LC08/C01/T1_SR",
+      "planet": "earth"
+    },
+    "service_version": "v5000",
+    "url": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/thumbnails/eca14827f645d612c4ec58013c41cea7-af07963b54035266e6bc9dd09442eb55:getPixels"
+  },
+  {
+    "date": "2020-01-08T13:04:33.368000",
+    "id": "LANDSAT/LC08/C01/T1_SR/LC08_219076_20200108",
+    "resource": {
+      "dataset": "LANDSAT/LC08/C01/T1_SR",
+      "planet": "earth"
+    },
+    "service_version": "v5000",
+    "url": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/thumbnails/695ed013fc3d30c50a317f1c102e0511-e916d4e31e8b57ee0cecb2246c955291:getPixels"
+  },
+  {
+    "date": "2020-01-07T05:34:12.044000",
+    "id": "LANDSAT/LC08/C01/T1_SR/LC08_148047_20200107",
+    "resource": {
+      "dataset": "LANDSAT/LC08/C01/T1_SR",
+      "planet": "earth"
+    },
+    "service_version": "v5000",
+    "url": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/thumbnails/12ce87aaa077a1fe4ddb996c1afd0bc3-eff41e16ce800cfd2fe85704a9a5ca06:getPixels"
+  },
+  {
+    "date": "2019-12-31T17:00:13.938000",
+    "id": "LANDSAT/LC08/C01/T1_SR/LC08_026047_20191231",
+    "resource": {
+      "dataset": "LANDSAT/LC08/C01/T1_SR",
+      "planet": "earth"
+    },
+    "service_version": "v5000",
+    "url": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/thumbnails/7955230d2630dead5676e0ca1fc47e0b-a43dfbfeb3315892f243e6fb93b91cac:getPixels"
+  },
+  {
+    "date": "2019-12-28T01:35:00.667000",
+    "id": "LANDSAT/LC08/C01/T1_SR/LC08_110036_20191228",
+    "resource": {
+      "dataset": "LANDSAT/LC08/C01/T1_SR",
+      "planet": "earth"
+    },
+    "service_version": "v5000",
+    "url": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/thumbnails/e4302244a84efb244d268fedcc1ad875-d77e8006808f13aec55bcc5a03f8854b:getPixels"
+  },
+  {
+    "date": "2020-01-02T08:30:15.234000",
+    "id": "LANDSAT/LC08/C01/T1_SR/LC08_177039_20200102",
+    "resource": {
+      "dataset": "LANDSAT/LC08/C01/T1_SR",
+      "planet": "earth"
+    },
+    "service_version": "v5000",
+    "url": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/thumbnails/76448e1d01631f43c1bbbe0c61494d4a-bd6f1668c0a09494b9dad0a2f452df9a:getPixels"
+  },
+  {
+    "date": "2019-12-27T15:40:07.005000",
+    "id": "LANDSAT/LC08/C01/T1_SR/LC08_014032_20191227",
+    "resource": {
+      "dataset": "LANDSAT/LC08/C01/T1_SR",
+      "planet": "earth"
+    },
+    "service_version": "v5000",
+    "url": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/thumbnails/7e8e6c3db16359f6b4ce19effe776b59-66c9954bc95333fcd1426ee94fc0642e:getPixels"
+  },
+  {
+    "date": "2020-01-08T02:53:43.077000",
+    "id": "LANDSAT/LC08/C01/T1_SR/LC08_123032_20200108",
+    "resource": {
+      "dataset": "LANDSAT/LC08/C01/T1_SR",
+      "planet": "earth"
+    },
+    "service_version": "v5000",
+    "url": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/thumbnails/0d2e618db8aed7f55f562cea8b53ed81-18f6309df406a2b85dbcf19728608cf1:getPixels"
+  },
+  {
+    "date": "2019-12-25T02:39:25.566000",
+    "id": "LANDSAT/LC08/C01/T1_SR/LC08_121027_20191225",
+    "resource": {
+      "dataset": "LANDSAT/LC08/C01/T1_SR",
+      "planet": "earth"
+    },
+    "service_version": "v5000",
+    "url": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/thumbnails/f658a7ddb6d78a1680ca59f8caf21f3e-373d41ea288696a987aabac7fdc9dfa1:getPixels"
+  }
+]
