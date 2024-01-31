@@ -65,3 +65,31 @@ def ct_cme_analysis(cursor):
     """
 
     cursor.execute(create_table_query)
+
+def ct_gst(cursor):
+    create_table_query = """
+    CREATE TABLE donki.gst_raw (
+    id SERIAL PRIMARY KEY,
+    gstID text UNIQUE,
+    startTime date,
+    allKpIndex JSONB,
+    linkedEvents JSONB,
+    link text
+    )
+    """
+
+    cursor.execute(create_table_query)
+
+def ct_hss(cursor):
+    create_table_query = """
+    CREATE TABLE donki.hss_raw (
+    id SERIAL PRIMARY KEY,
+    hssID text UNIQUE,
+    eventTime date,
+    instruments JSONB,
+    linkedEvents JSONB,
+    link text
+    )
+    """
+
+    cursor.execute(create_table_query)
