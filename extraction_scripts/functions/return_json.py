@@ -4,6 +4,10 @@ from functions.return_params import return_params
 
 logging.basicConfig(filename='logs/main.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+# This function makes the HTTP Request 
+# and returns the JSON file for each 
+# API in the api_keys dictionary
+
 def return_json(web_service, api_key, start_date, end_date, lat, lon):
     json = {}
     
