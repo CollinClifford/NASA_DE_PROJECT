@@ -5,14 +5,11 @@ from functions.return_path import return_path
 
 logging.basicConfig(filename='logs/main.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-def append_to_json(data, web_service, unique_id):
-    logging.info(data)
-    # Some parameters need to be adjusted basted on the API call.
+# This function locates the JSON
+# file and appends the HTTP Request
+# to the selected file
 
-    # if 'DONKI' in web_service or 'EPIC' in web_service:
-    #     service_name = web_service.lower()
-    # else:
-    #     service_name = web_service.split('/')[1].lower()
+def append_to_json(data, web_service, unique_id):
 
     existing_data = []
 
@@ -20,7 +17,6 @@ def append_to_json(data, web_service, unique_id):
     project_directory = os.path.abspath(os.path.join(current_script_directory, '..', '..'))
 
     # Loads the proper JSON based on the API call.
-
     json_file_path = return_path(web_service, project_directory)
 
     try:
@@ -30,7 +26,6 @@ def append_to_json(data, web_service, unique_id):
         logging.error(f"Error loading existing data: {e}")
 
     # Special case for NeoWs
-        
     if 'near_earth_objects' in data:
         try:
             neo_objects = data['near_earth_objects']
@@ -49,6 +44,7 @@ def append_to_json(data, web_service, unique_id):
         except Exception as e:
             logging.error(f'append_to_json failed to append: {e}')
 
+    # Special case for Mars Photos
     elif 'photos' in data:
         try:
             photos = data['photos']
@@ -66,8 +62,8 @@ def append_to_json(data, web_service, unique_id):
         
         except Exception as e:
             logging.error(f'append_to_json failed to append: {e}')
-    # Searches for Unique_ID and appends JSON information.
-                
+    
+    # Searches for Unique_ID and appends JSON information.            
     else:
         try:
             existing_dates = [entry.get(unique_id) for entry in existing_data]
