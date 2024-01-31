@@ -84,7 +84,7 @@ def main():
             except Exception as e:
                 logging.error(f"An error occured while dropping table: {e}")
 
-        # runs through array of create table functions and triggers them.
+        # Runs through array of create table functions and triggers them.
         for ct in create_table_array:
             try:
                 ct
