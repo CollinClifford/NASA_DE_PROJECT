@@ -164,3 +164,126 @@ def ct_sep(cursor):
     """
 
     cursor.execute(create_table_query)
+
+def ct_wsaenlilsimulations(cursor):
+    create_table_query = """
+    CREATE TABLE donki.wsaenlilsimulations_raw (
+    id SERIAL PRIMARY KEY,
+    simulationID text UNIQUE,
+    modelCompletionTime date,
+    au double,
+    cmeInputs JSONB,
+    estimatedShockArrivalTime text,
+    estimatedDuration text,
+    rmin_re text,
+    kp_18 text,
+    kp_90 text,
+    kp_135 text,
+    kp_180 text,
+    isEarthGB boolean,
+    impactList JSONB,
+    link text
+    )
+    """
+
+    cursor.execute(create_table_query)
+
+def ct_earth(cursor):
+    create_table_query = """
+    CREATE TABLE earth.earth_raw (
+    date date,
+    id text UNIQUE,
+    resure JSONB,
+    service_version text,
+    url text
+    )
+    """
+
+    cursor.execute(create_table_query)
+
+def ct_epic_enhanced(cursor):
+    create_table_query = """
+    CREATE TABLE epic.epic_enhanced_raw (
+    id SERIAL PRIMARY KEY,
+    identifier text UNIQUE,
+    caption text,
+    image text,
+    version text,
+    centroid_coordinates JSONB,
+    dscovr_j2000_position JSONB,
+    lunar_j2000_position JSONB,
+    sun_j2000_position JSONB,
+    attitude_quaternions JSONB,
+    date date,
+    coords JSONB
+    )
+    """
+
+    cursor.execute(create_table_query)
+
+def ct_epic_natural(cursor):
+    create_table_query = """
+    CREATE TABLE epic.epic_natural_raw (
+    id SERIAL PRIMARY KEY,
+    identifier text UNIQUE,
+    caption text,
+    image text,
+    version text,
+    centroid_coordinates JSONB,
+    dscovr_j2000_position JSONB,
+    lunar_j2000_position JSONB,
+    sun_j2000_position JSONB,
+    attitude_quaternions JSONB,
+    date date,
+    coords JSONB
+    )
+    """
+
+    cursor.execute(create_table_query)
+
+def ct_mars_rover_photos_curiosity(cursor):
+    create_table_query = """
+    CREATE TABLE mars_rover_photos.curiosity_raw (
+    id SERIAL PRIMARY KEY
+    )
+    """
+
+    cursor.execute(create_table_query)
+
+def ct_mars_rover_photos_opportunity(cursor):
+    create_table_query = """
+    CREATE TABLE mars_rover_photos.opportunity_raw (
+    id SERIAL PRIMARY KEY
+    )
+    """
+
+    cursor.execute(create_table_query)
+
+def ct_mars_rover_photos_perseverance(cursor):
+    create_table_query = """
+    CREATE TABLE mars_rover_photos.perseverance_raw (
+    id SERIAL PRIMARY KEY
+    )
+    """
+
+    cursor.execute(create_table_query)
+
+def ct_mars_rover_photos_spirit(cursor):
+    create_table_query = """
+    CREATE TABLE mars_rover_photos.spirit_raw (
+    id SERIAL PRIMARY KEY
+    )
+    """
+
+    cursor.execute(create_table_query)
+
+def ct_neows(cursor):
+    create_table_query = """
+    CREATE TABLE neows.neows_raw (
+    id SERIAL PRIMARY KEY,
+    date date,
+    objects JSONB
+    )
+    """
+
+    cursor.execute(create_table_query)
