@@ -104,7 +104,6 @@ def main():
         # Runs through array of create table functions and triggers them.
         try:
             ct_apod(cursor)
-            ct_neows(cursor)
             ct_cme(cursor)
             ct_cme_analysis(cursor)
             ct_gst(cursor)
