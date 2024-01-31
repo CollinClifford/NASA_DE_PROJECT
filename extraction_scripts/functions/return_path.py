@@ -1,8 +1,8 @@
 import os
 
+# This function just returns the path to the JSON within the datalake folder.
 
 def return_path(web_service, project_directory):
-
     if web_service == 'planetary/apod':
         return os.path.join(project_directory, 'data_lake_storage/apod/apod.json')
     elif web_service == 'neo/rest/v1/feed':
