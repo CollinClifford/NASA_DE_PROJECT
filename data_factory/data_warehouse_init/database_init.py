@@ -5,8 +5,15 @@ import os
 import logging
 from sql_commands.create_table import *
 from sql_commands.drop_table import *
+from functions.return_path import return_path
+from functions.web_services import web_services
+from functions.return_insert_function import return_insert_function
 
 logging.basicConfig(filename='logs/main.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+current_script_directory = os.path.dirname(os.path.abspath(__file__))
+project_directory = os.path.abspath(os.path.join(current_script_directory, '..', '..'))
+
 
 # Connects to DB, runs drop, create, and insert functions and closes connection.
 def main():
@@ -84,6 +91,15 @@ def main():
         except Exception as e:
             logging.error(f"An error occured while creating table: {e}")
 
+        for web_service in web_services:
+            json_file_path = return_path(web_service, project_directory)
+
+            with open(json_file_path, 'r') as file:
+                json_data = json.load(file)
+                
+            for record in json_data:
+                return_insert_function(web_service, cursor, record)
+                
         conn.commit()
         conn.close()
 
