@@ -11,3 +11,6 @@ __pycache__/
 *.pyo
 *.pyd
 *.db
+
+# JSON files
+*.json
