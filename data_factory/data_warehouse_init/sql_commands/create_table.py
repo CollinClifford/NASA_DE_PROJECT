@@ -40,10 +40,10 @@ def ct_cme_analysis(cursor):
     CREATE TABLE donki.cme_analysis_raw (
     id SERIAL PRIMARY KEY,
     time21_5 date UNIQUE,
-    latitude double,
-    longitude double,
-    halfAngle double,
-    speed double,
+    latitude float,
+    longitude float,
+    halfAngle float,
+    speed float,
     type text,
     isMostAccurate boolean,
     associatedCMEID text,
@@ -101,7 +101,7 @@ def ct_ips(cursor):
 def ct_mpc(cursor):
     create_table_query = """
     CREATE TABLE donki.mpc_raw (
-    id SERIRAL PRIMARY KEY,
+    id SERIAL PRIMARY KEY,
     mpcID text UNIQUE,
     eventTime date,
     instruments JSONB,
@@ -160,7 +160,7 @@ def ct_wsaenlilsimulations(cursor):
     id SERIAL PRIMARY KEY,
     simulationID text UNIQUE,
     modelCompletionTime date,
-    au double,
+    au float,
     cmeInputs JSONB,
     estimatedShockArrivalTime text,
     estimatedDuration text,
