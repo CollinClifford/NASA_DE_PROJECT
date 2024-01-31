@@ -91,6 +91,7 @@ def main():
         except Exception as e:
             logging.error(f"An error occured while creating table: {e}")
 
+        # Insert records for each JSON file
         for web_service in web_services:
             json_file_path = return_path(web_service, project_directory)
 
