@@ -1,5 +1,6 @@
+# This returns the proper parameters for each API.
+
 def return_params(web_service, start_date, end_date, api_key, lat=0, lon=-90):
-    
         if web_service == "planetary/apod":
             return {'start_date': start_date, 'end_date': end_date, 'api_key': api_key, 'thumbs': 'True'}
         elif web_service == 'neo/rest/v1/feed':
