@@ -32,6 +32,8 @@ def main():
         conn = psycopg2.connect(**db_params)
         cursor = conn.cursor()
 
+        logging.info("Connection successful.")
+
         # Runs through array of drop table functions and triggers them.
         try:
             dt_apod(cursor)
@@ -53,6 +55,7 @@ def main():
             dt_mars_rover_photos_perseverance(cursor) 
             dt_mars_rover_photos_spirit(cursor)
             dt_neows(cursor)
+            logging.info(f"Tables Successfully Dropped.")
         except Exception as e:
             logging.error(f"An error occured while dropping table: {e}")
 
@@ -77,6 +80,7 @@ def main():
             ct_mars_rover_photos_perseverance(cursor)
             ct_mars_rover_photos_spirit(cursor)
             ct_neows(cursor)
+            logging.info("Tables Successfully created.")
         except Exception as e:
             logging.error(f"An error occured while creating table: {e}")
 
