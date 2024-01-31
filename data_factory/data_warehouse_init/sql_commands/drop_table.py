@@ -5,13 +5,6 @@ def dt_apod(cursor):
     
     cursor.execute(drop_table_query)
 
-def dt_neows(cursor):
-    drop_table_query = """
-    DROP TABLE [IF EXISTS] neows.neows_raw; 
-    """
-    
-    cursor.execute(drop_table_query)
-
 def dt_cme(cursor):
     drop_table_query = """
     DROP TABLE [IF EXISTS] donki.cme_raw; 

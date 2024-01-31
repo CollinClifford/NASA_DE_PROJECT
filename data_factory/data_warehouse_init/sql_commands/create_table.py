@@ -16,17 +16,6 @@ def ct_apod(cursor):
     
     cursor.execute(create_table_query)
 
-def ct_neows(cursor):
-    create_table_query = """
-    CREATE TABLE neows.neows_raw (
-    id SERIAL PRIMARY KEY,
-    date date UNIQUE,
-    objects JSONB
-    )
-    """
-    
-    cursor.execute(create_table_query)
-
 def ct_cme(cursor):
     create_table_query = """
     CREATE TABLE donki.cme_raw (
