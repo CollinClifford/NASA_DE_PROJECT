@@ -1,4 +1,4 @@
-def return_params(web_service, start_date, end_date, api_key):
+def return_params(web_service, start_date, end_date, api_key, lat, lon):
     
         if web_service == "planetary/apod":
             return {'start_date': start_date, 'end_date': end_date, 'api_key': api_key, 'thumbs': 'True'}
@@ -29,12 +29,14 @@ def return_params(web_service, start_date, end_date, api_key):
         elif web_service == 'EPIC/api/enhanced/date/':
             return {'api_key': api_key}
         elif web_service == 'mars-photos/api/v1/rovers/perseverance/photos':
-            return {'earth_date': start_date, 'api_key': api_key}
+            return {'earth_date': end_date, 'api_key': api_key}
         elif web_service == 'mars-photos/api/v1/rovers/curiosity/photos':
-            return {'earth_date': start_date, 'api_key': api_key}
+            return {'earth_date': end_date, 'api_key': api_key}
         elif web_service == 'mars-photos/api/v1/rovers/opportunity/photos':
-            return {'earth_date': start_date, 'api_key': api_key}
+            return {'earth_date': end_date, 'api_key': api_key}
         elif web_service == 'mars-photos/api/v1/rovers/spirit/photos':
-            return {'earth_date': start_date, 'api_key': api_key}
+            return {'earth_date': end_date, 'api_key': api_key}
+        elif web_service == 'planetary/earth/assets':
+            return {'lat': lat, 'lon': lon, 'date': end_date, 'api_key': api_key}
         else:
             return None
