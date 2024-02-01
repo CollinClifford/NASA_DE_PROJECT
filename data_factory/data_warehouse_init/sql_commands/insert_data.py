@@ -1,3 +1,5 @@
+import json
+
 def insert_apod_data(cursor, data):
     columns = data.keys()
     values = [data[column] for column in columns]
@@ -9,3 +11,14 @@ def insert_apod_data(cursor, data):
     
     cursor.execute(insert_query, values)
 
+def insert_neows_data(cursor, data):
+
+    date = data['date']
+    data_json = json.dumps(data)
+
+    insert_query = f"""
+        INSERT INTO neows.neows_raw (date, objects)
+        VALUES (%s, %s);
+        """
+
+    cursor.execute(insert_query, (date, data_json))

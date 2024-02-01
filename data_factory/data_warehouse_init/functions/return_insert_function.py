@@ -10,5 +10,11 @@ def return_insert_function(web_service, cursor, data):
             logging.info("insert_apod_data function triggered successfully.")
         except Exception as e:
             logging.error(f"insert_apod_data function failed: {e}")
-    # else:
-        # print("we haven't built out anything else yet, dude.")
+    elif web_service == "neo/rest/v1/feed":
+        try:
+            insert_neows_data(cursor, data)
+            logging.info("insert_neows_data function triggered successfully.")
+        except Exception as e:
+            logging.error(f"insert_neows_data function failed: {e}")
+    else:
+        return

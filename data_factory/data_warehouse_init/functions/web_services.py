@@ -1,6 +1,6 @@
 web_services = {
     'planetary/apod': 'date'
-    # ,'neo/rest/v1/feed': 'date'
+    ,'neo/rest/v1/feed': 'date'
     # ,'DONKI/CME': 'activityID'
     # ,'DONKI/CMEAnalysis': 'associatedCMEID'
     # ,'DONKI/GST': 'gstID'
