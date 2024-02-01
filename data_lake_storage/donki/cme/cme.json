@@ -7924,5 +7924,238 @@
       }
     ],
     "linkedEvents": null
+  },
+  {
+    "activityID": "2024-01-31T01:48:00-CME-001",
+    "catalog": "M2M_CATALOG",
+    "startTime": "2024-01-31T01:48Z",
+    "sourceLocation": "S20E80",
+    "activeRegionNum": null,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CME/28916/-1",
+    "note": "Faint narrow CME with the potential source a minor east limb filament eruption around (S20E80) seen starting around 2024-01-31T01:25Z in GOES SUVI 304.",
+    "instruments": [
+      {
+        "displayName": "SOHO: LASCO/C2"
+      },
+      {
+        "displayName": "SOHO: LASCO/C3"
+      },
+      {
+        "displayName": "STEREO A: SECCHI/COR2"
+      }
+    ],
+    "cmeAnalyses": [
+      {
+        "time21_5": "2024-01-31T11:52Z",
+        "latitude": -9.0,
+        "longitude": -80.0,
+        "halfAngle": 15.0,
+        "speed": 342.0,
+        "type": "S",
+        "isMostAccurate": true,
+        "note": "Analysis based on the source location (minor eruption) confirmed by good fit in swpc_cat with two coronagraphs.",
+        "levelOfData": 0,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/28917/-1",
+        "enlilList": null
+      }
+    ],
+    "linkedEvents": null
+  },
+  {
+    "activityID": "2024-01-31T06:36:00-CME-001",
+    "catalog": "M2M_CATALOG",
+    "startTime": "2024-01-31T06:36Z",
+    "sourceLocation": "",
+    "activeRegionNum": null,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CME/28908/-1",
+    "note": "Faint event to the south.",
+    "instruments": [
+      {
+        "displayName": "SOHO: LASCO/C2"
+      },
+      {
+        "displayName": "SOHO: LASCO/C3"
+      },
+      {
+        "displayName": "STEREO A: SECCHI/COR2"
+      }
+    ],
+    "cmeAnalyses": [
+      {
+        "time21_5": "2024-01-31T14:23Z",
+        "latitude": -57.0,
+        "longitude": 161.0,
+        "halfAngle": 20.0,
+        "speed": 449.0,
+        "type": "S",
+        "isMostAccurate": true,
+        "note": "Approximate analysis since the source is likely backsided. Analysis based on fit in swpc_cat.",
+        "levelOfData": 0,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/28909/-1",
+        "enlilList": null
+      }
+    ],
+    "linkedEvents": null
+  },
+  {
+    "activityID": "2024-01-31T11:24:00-CME-001",
+    "catalog": "M2M_CATALOG",
+    "startTime": "2024-01-31T11:24Z",
+    "sourceLocation": "",
+    "activeRegionNum": null,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CME/28912/-1",
+    "note": "A very faint and narrow but fast CME in the NW. The start of it is covered by a data gap in STEREO A. The source might be narrow opening field lines in AIA 171 behind the limb around 2024-01-31T10:30Z",
+    "instruments": [
+      {
+        "displayName": "SOHO: LASCO/C2"
+      },
+      {
+        "displayName": "SOHO: LASCO/C3"
+      }
+    ],
+    "cmeAnalyses": [
+      {
+        "time21_5": "2024-01-31T15:07Z",
+        "latitude": 13.0,
+        "longitude": 107.0,
+        "halfAngle": 16.0,
+        "speed": 902.0,
+        "type": "C",
+        "isMostAccurate": true,
+        "note": "A very approximate analysis based on the fit in swpc_cat. Longitudes could range from 95 to 130 degrees.",
+        "levelOfData": 0,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/28914/-1",
+        "enlilList": [
+          {
+            "modelCompletionTime": "2024-01-31T19:40Z",
+            "au": 2.0,
+            "estimatedShockArrivalTime": null,
+            "estimatedDuration": null,
+            "rmin_re": null,
+            "kp_18": null,
+            "kp_90": null,
+            "kp_135": null,
+            "kp_180": null,
+            "isEarthGB": false,
+            "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28915/-1",
+            "impactList": [
+              {
+                "isGlancingBlow": false,
+                "location": "OSIRIS-APEX",
+                "arrivalTime": "2024-02-02T10:31Z"
+              }
+            ],
+            "cmeIDs": [
+              "2024-01-31T11:24:00-CME-001"
+            ]
+          },
+          {
+            "modelCompletionTime": "2024-01-31T20:18Z",
+            "au": 5.5,
+            "estimatedShockArrivalTime": null,
+            "estimatedDuration": null,
+            "rmin_re": null,
+            "kp_18": null,
+            "kp_90": null,
+            "kp_135": null,
+            "kp_180": null,
+            "isEarthGB": false,
+            "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28919/-1",
+            "impactList": [
+              {
+                "isGlancingBlow": false,
+                "location": "OSIRIS-APEX",
+                "arrivalTime": "2024-02-02T09:33Z"
+              },
+              {
+                "isGlancingBlow": false,
+                "location": "Lucy",
+                "arrivalTime": "2024-02-08T10:00Z"
+              }
+            ],
+            "cmeIDs": [
+              "2024-01-31T11:24:00-CME-001"
+            ]
+          }
+        ]
+      },
+      {
+        "time21_5": "2024-01-31T15:10Z",
+        "latitude": 15.0,
+        "longitude": null,
+        "halfAngle": 19.0,
+        "speed": 905.0,
+        "type": "C",
+        "isMostAccurate": false,
+        "note": "",
+        "levelOfData": 0,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/28913/-1",
+        "enlilList": null
+      }
+    ],
+    "linkedEvents": null
+  },
+  {
+    "activityID": "2024-01-31T12:48:00-CME-001",
+    "catalog": "M2M_CATALOG",
+    "startTime": "2024-01-31T12:48Z",
+    "sourceLocation": "",
+    "activeRegionNum": null,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CME/28921/-1",
+    "note": "Faint northern CME. One possible source is the NW filament eruption starting ~2024-01-31T10:58Z centered around (N45W60), however the CME is much more central than this source, so possibly it is a backsided CME.",
+    "instruments": [
+      {
+        "displayName": "SOHO: LASCO/C2"
+      },
+      {
+        "displayName": "SOHO: LASCO/C3"
+      }
+    ],
+    "cmeAnalyses": [
+      {
+        "time21_5": "2024-01-31T16:37Z",
+        "latitude": 88.0,
+        "longitude": 5.0,
+        "halfAngle": 18.0,
+        "speed": 851.0,
+        "type": "C",
+        "isMostAccurate": true,
+        "note": "An extremely approximate analysis since there is no STEREO A imagery available for this event and the possible source eruption seems to be much more western than the CME.",
+        "levelOfData": 0,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/28922/-1",
+        "enlilList": null
+      }
+    ],
+    "linkedEvents": null
+  },
+  {
+    "activityID": "2024-01-31T13:48:00-CME-001",
+    "catalog": "M2M_CATALOG",
+    "startTime": "2024-01-31T13:48Z",
+    "sourceLocation": "",
+    "activeRegionNum": null,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CME/28910/-1",
+    "note": "The actual start time of the CME is 2024-01-31T13:48Z (now that SOHO backfilled). A CME to the east in SOHO LASCO C3, covered by extensive gap in COR2A.  There is a central eruption seen in AIA 193 at 2024-01-31T13:00Z in AIA 193 (15E05) but this is unlikely to be a source. A more likely coronal signature is a very (super) faint movement/flickering of field lines behind the E limb seen in GOES SUVI 193 before 2024-01-31T14Z.",
+    "instruments": [
+      {
+        "displayName": "SOHO: LASCO/C3"
+      }
+    ],
+    "cmeAnalyses": [
+      {
+        "time21_5": "2024-01-31T20:15Z",
+        "latitude": 4.0,
+        "longitude": null,
+        "halfAngle": 37.0,
+        "speed": 647.0,
+        "type": "C",
+        "isMostAccurate": true,
+        "note": "",
+        "levelOfData": 0,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/28911/-1",
+        "enlilList": null
+      }
+    ],
+    "linkedEvents": null
   }
 ]

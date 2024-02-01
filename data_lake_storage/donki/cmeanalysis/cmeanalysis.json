@@ -1402,5 +1402,57 @@
     "note": "",
     "catalog": "M2M_CATALOG",
     "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/28907/-1"
+  },
+  {
+    "time21_5": "2024-01-31T11:52Z",
+    "latitude": -9.0,
+    "longitude": -80.0,
+    "halfAngle": 15.0,
+    "speed": 342.0,
+    "type": "S",
+    "isMostAccurate": true,
+    "associatedCMEID": "2024-01-31T01:48:00-CME-001",
+    "note": "Analysis based on the source location (minor eruption) confirmed by good fit in swpc_cat with two coronagraphs.",
+    "catalog": "M2M_CATALOG",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/28917/-1"
+  },
+  {
+    "time21_5": "2024-01-31T14:23Z",
+    "latitude": -57.0,
+    "longitude": 161.0,
+    "halfAngle": 20.0,
+    "speed": 449.0,
+    "type": "S",
+    "isMostAccurate": true,
+    "associatedCMEID": "2024-01-31T06:36:00-CME-001",
+    "note": "Approximate analysis since the source is likely backsided. Analysis based on fit in swpc_cat.",
+    "catalog": "M2M_CATALOG",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/28909/-1"
+  },
+  {
+    "time21_5": "2024-01-31T15:07Z",
+    "latitude": 13.0,
+    "longitude": 107.0,
+    "halfAngle": 16.0,
+    "speed": 902.0,
+    "type": "C",
+    "isMostAccurate": true,
+    "associatedCMEID": "2024-01-31T11:24:00-CME-001",
+    "note": "A very approximate analysis based on the fit in swpc_cat. Longitudes could range from 95 to 130 degrees.",
+    "catalog": "M2M_CATALOG",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/28914/-1"
+  },
+  {
+    "time21_5": "2024-01-31T16:37Z",
+    "latitude": 88.0,
+    "longitude": 5.0,
+    "halfAngle": 18.0,
+    "speed": 851.0,
+    "type": "C",
+    "isMostAccurate": true,
+    "associatedCMEID": "2024-01-31T12:48:00-CME-001",
+    "note": "An extremely approximate analysis since there is no STEREO A imagery available for this event and the possible source eruption seems to be much more western than the CME.",
+    "catalog": "M2M_CATALOG",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/28922/-1"
   }
 ]
