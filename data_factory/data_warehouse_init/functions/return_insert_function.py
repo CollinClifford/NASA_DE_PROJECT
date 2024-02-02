@@ -16,5 +16,11 @@ def return_insert_function(web_service, cursor, data):
             logging.info("insert_neows_data function triggered successfully.")
         except Exception as e:
             logging.error(f"insert_neows_data function failed: {e}")
+    elif web_service == "DONKI/CME":
+        try:
+            insert_cme_data(cursor, data)
+            logging.info('insert_cme_data function triggered successfully.')
+        except Exception as e:
+            logging.error(f"insert_cme_data function failed: {e}")
     else:
         return
