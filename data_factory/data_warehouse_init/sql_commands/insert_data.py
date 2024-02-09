@@ -42,7 +42,10 @@ def insert_cme_data(cursor, data):
         cmeAnalyses = None
     else:
         cmeAnalyses = json.dumps(data['cmeAnalyses'])
-    linkedEvents = data['linkedEvents']
+    if data['linkedEvents'] == None:
+        linkedEvents = None
+    else:
+        linkedEvents = json.dumps(data['linkedEvents'])
 
     insert_query = """
         INSERT INTO donki.cme_raw (
