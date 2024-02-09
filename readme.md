@@ -1,4 +1,4 @@
-#### Updated 01/16/2024 Current version: 1.1
+#### Updated 01/16/2024 Current version: 1.2
 
 # NASA_DE_PROJECT: A data factoy using NASA Open API Web Services 
 ![Nasa Astronomy Picture of the Day Example](./media/apod.jpg)
@@ -21,7 +21,7 @@ This program is stored on a Raspbery Pi server and runs at midnight daily.  It r
 1. Cycles through NASA Open API Web Services updating JSON with missing data
 2. Runs Data Pipeline to perform ETL processes
 3. Drops/Creates new tables in database
-4. Inserts transformed data
+4. Inserts raw data
 
 ![NASA_proj workflow diagram](./media/NASA_proj_wf.jpg)
 
@@ -29,6 +29,7 @@ As this is largely a learning opportunity for the construction of Data Warehouse
 
 ## Components
 
+- `./data_factory`
 - `./data_lake_storage`
 - `./extraction_scripts`
 - `./logs`
@@ -48,9 +49,10 @@ As this is largely a learning opportunity for the construction of Data Warehouse
 - **Version 1.1**
     - Create first draft.
     - Connect to APOD, NeoWS, DONKI APIs.
-    - Create Data Pipeline/Factory for APOD, NeoWs, DONKI data.
+    - Create Data Pipeline/Factory for APOD, NeoWs.
 - **Version 1.2**
-    - Repeat steps for new NASA Open API Web Service
+    - Connected to EARTH, EPIC, Mars_Rover_Photos APIs.
+    - Create Data Pipeline/Factory for DONKI
 
 ## Installation and Execution
 *Note:* This project uses python3.
