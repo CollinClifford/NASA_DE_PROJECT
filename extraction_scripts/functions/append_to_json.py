@@ -10,7 +10,6 @@ logging.basicConfig(filename='logs/main.log', level=logging.INFO, format='%(asct
 # to the selected file
 
 def append_to_json(data, web_service, unique_id):
-
     existing_data = []
 
     current_script_directory = os.path.dirname(os.path.abspath(__file__))
@@ -43,7 +42,7 @@ def append_to_json(data, web_service, unique_id):
         
         except Exception as e:
             logging.error(f'append_to_json failed to append: {e}')
-
+    
     # Special case for Mars Photos
     elif 'photos' in data:
         try:

@@ -103,7 +103,7 @@ def main():
                 
         conn.commit()
         conn.close()
-
+        
     except Exception as e:
         logging.error(f"An error occurred while connecting to database: {e}")
 

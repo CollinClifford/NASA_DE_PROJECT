@@ -48,6 +48,8 @@ if __name__ == "__main__":
                     # Conditions to iterate through the JSON if it is the neows API.
                     if web_service == 'neo/rest/v1/feed':
                         append_to_json(data_json, web_service, unique_id)
+                    elif 'mars-photos' in web_service:
+                        append_to_json(data_json, web_service, unique_id)
                     else:
                         for entry in data_json:
                             append_to_json(entry, web_service, unique_id)
