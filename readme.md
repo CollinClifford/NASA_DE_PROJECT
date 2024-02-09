@@ -1,4 +1,4 @@
-#### Updated 01/16/2024 Current version: 1.2
+#### Updated 02/08/2024 Current version: 1.2
 
 # NASA_DE_PROJECT: A data factoy using NASA Open API Web Services 
 ![Nasa Astronomy Picture of the Day Example](./media/apod.jpg)
