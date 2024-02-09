@@ -29,7 +29,7 @@ def ct_cme(cursor):
     note text,
     instruments JSONB,
     cmeAnalyses JSONB,
-    linkedEvents text
+    linkedEvents JSONB
     )
     """
 
