@@ -60,3 +60,32 @@ def insert_cme_data(cursor, data):
         VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
     """
     cursor.execute(insert_query, (activityID, catalog, startTime, sourceLocation, activeRegionNum, link, note, instruments, cmeAnalyses, linkedEvents))
+
+def insert_cme_analysis_data(cursor, data):
+    # print(data)
+    # insert_query = """
+    #     INSERT INTO donki.cme_analysis_raw (
+    #     time21_5,
+    #     latitude, 
+    #     longitude,
+    #     halfAngle, 
+    #     speed,
+    #     type, 
+    #     isMostAccurate, 
+    #     associatedCMEID, 
+    #     note, 
+    #     catalog,
+    #     link
+    #     )
+    #     VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
+    # """
+    # cursor.execute(insert_query, data)
+    columns = data.keys()
+    values = [data[column] for column in columns]
+
+    insert_query = f"""
+        INSERT INTO donki.cme_analysis_raw ({', '.join(columns)})
+        VALUES ({', '.join(['%s' for _ in range(len(columns))])});
+        """
+    
+    cursor.execute(insert_query, values)

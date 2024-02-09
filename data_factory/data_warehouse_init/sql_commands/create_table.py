@@ -39,7 +39,7 @@ def ct_cme_analysis(cursor):
     create_table_query = """
     CREATE TABLE donki.cme_analysis_raw (
     id SERIAL PRIMARY KEY,
-    time21_5 date UNIQUE,
+    time21_5 date,
     latitude float,
     longitude float,
     halfAngle float,
