@@ -182,7 +182,7 @@ def ct_earth(cursor):
     CREATE TABLE earth.earth_raw (
     date date,
     id text UNIQUE,
-    resure JSONB,
+    resource JSONB,
     service_version text,
     url text
     )

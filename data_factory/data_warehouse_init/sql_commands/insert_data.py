@@ -283,3 +283,25 @@ def insert_wsaenlilsimulations_data(cursor, data):
         """
 
     cursor.execute(insert_query, (simulationID, modelCompletionTime, au, cmeInputs, estimatedShockArrivalTime, estimatedDuration, rmin_re, kp_18, kp_90, kp_135, kp_180, isEarthGB, impactList, link))
+
+def insert_earth_data(cursor, data):
+    date = data['date']
+    id = data['id']
+    if data['resource'] == None:
+        resource = None
+    else:
+        resource = json.dumps(data['resource'])
+    service_version = data['service_version']
+    url = data['url']
+
+    insert_query = """
+        INSERT INTO earth.earth_raw (
+        date,
+        id,
+        resource,
+        service_version,
+        url 
+        ) VALUES (%s, %s, %s, %s, %s)
+        """
+    
+    cursor.execute(insert_query, (date, id, resource, service_version, url))

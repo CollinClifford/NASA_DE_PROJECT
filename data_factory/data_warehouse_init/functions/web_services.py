@@ -17,5 +17,5 @@ web_services = {
     # ,'mars-photos/api/v1/rovers/curiosity/photos': 'id'
     # ,'mars-photos/api/v1/rovers/opportunity/photos': 'id'
     # ,'mars-photos/api/v1/rovers/spirit/photos': 'id'
-    # ,'planetary/earth/assets': 'id'
+    ,'planetary/earth/assets': 'id'
 }

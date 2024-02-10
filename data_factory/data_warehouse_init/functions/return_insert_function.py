@@ -76,5 +76,11 @@ def return_insert_function(web_service, cursor, data):
             logging.info('insert_wsaenlilsimulations_data function triggered successfully')
         except Exception as e:
             logging.error(f'insert_wsaenlilsimulations_data function failed: {e}')
+    elif web_service == 'planetary/earth/assets':
+        try:
+            insert_earth_data(cursor, data)
+            logging.info('insert_earth_data function triggered successfuly')
+        except Exception as e:
+            logging.error(f'insert_earth_data function failed: {e}')
     else:
         return
