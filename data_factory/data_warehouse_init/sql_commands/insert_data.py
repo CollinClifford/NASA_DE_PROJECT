@@ -153,7 +153,6 @@ def insert_ips_data(cursor, data):
 def insert_mpc_data(cursor, data):
     
     mpcID = data['mpcID']
-    print(mpcID)
     eventTime = data['eventTime']
     if data['instruments'] == None:
         instruments = None
@@ -176,3 +175,15 @@ def insert_mpc_data(cursor, data):
         """
 
     cursor.execute(insert_query, (mpcID, eventTime, instruments, linkedEvents, link))
+
+def insert_notifications_data(cursor, data):
+
+    columns = data.keys()
+    values = [data[column] for column in columns]
+
+    insert_query = f"""
+        INSERT INTO donki.notifications_raw ({', '.join(columns)})
+        VALUES ({', '.join(['%s' for _ in range(len(columns))])});
+        """
+    
+    cursor.execute(insert_query, values)

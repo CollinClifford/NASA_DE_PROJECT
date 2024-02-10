@@ -52,5 +52,11 @@ def return_insert_function(web_service, cursor, data):
             logging.info('insert_mpc_data function triggered successfuly')
         except Exception as e:
             logging.error(f'insert_mpc_data function failed: {e}')
+    elif web_service == 'DONKI/notifications':
+        try:
+            insert_notifications_data(cursor, data)
+            logging.info('insert_notifications_data funtion triggered successfuly')
+        except Exception as e:
+            logging.error(f'insert_notifications_data function failed: {e}')
     else:
         return

@@ -7,7 +7,7 @@ web_services = {
     ,'DONKI/HSS': 'hssID'
     ,'DONKI/IPS': 'activityID'
     ,'DONKI/MPC': 'mpcID'
-    # ,'DONKI/notifications': 'messageID'
+    ,'DONKI/notifications': 'messageID'
     # ,'DONKI/RBE': 'rbeID'
     # ,'DONKI/SEP': 'sepID'
     # ,'DONKI/WSAEnlilSimulations': 'simulationID'
