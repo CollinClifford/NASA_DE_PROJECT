@@ -1,6 +1,4 @@
 import json
-from psycopg2.extras import Json
-from psycopg2.extensions import register_adapter
 
 def insert_apod_data(cursor, data):
     columns = data.keys()

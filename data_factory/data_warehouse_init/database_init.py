@@ -92,15 +92,19 @@ def main():
             logging.error(f"An error occured while creating table: {e}")
 
         # Insert records for each JSON file
-        for web_service in web_services:
-            json_file_path = return_path(web_service, project_directory)
+        try:
+            for web_service in web_services:
+                json_file_path = return_path(web_service, project_directory)
 
-            with open(json_file_path, 'r') as file:
-                json_data = json.load(file)
-                
-            for record in json_data:
-                return_insert_function(web_service, cursor, record)
-                
+                with open(json_file_path, 'r') as file:
+                    json_data = json.load(file)
+                    
+                for record in json_data:
+                    return_insert_function(web_service, cursor, record)
+            logging.info('Data successfully inserted.')
+        except Exception as e:
+            logging.error('An error occered while inserting data: {e}')
+
         conn.commit()
         conn.close()
         

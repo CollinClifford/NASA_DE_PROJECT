@@ -12,4 +12,4 @@ db_init_trigger = os.path.join(current_directory, 'data_warehouse_init/database_
 try:
     subprocess.run(['python', db_init_trigger])
 except Exception as e:
-    logging.error(f'One or more subprocesses failed: {e}')
+    logging.error(f'One or more subprocesses failed at the data factory level: {e}')
