@@ -8,7 +8,7 @@ web_services = {
     ,'DONKI/IPS': 'activityID'
     ,'DONKI/MPC': 'mpcID'
     ,'DONKI/notifications': 'messageID'
-    # ,'DONKI/RBE': 'rbeID'
+    ,'DONKI/RBE': 'rbeID'
     # ,'DONKI/SEP': 'sepID'
     # ,'DONKI/WSAEnlilSimulations': 'simulationID'
     # ,'EPIC/api/natural/date/': 'identifier'

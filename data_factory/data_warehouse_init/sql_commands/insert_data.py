@@ -187,3 +187,29 @@ def insert_notifications_data(cursor, data):
         """
     
     cursor.execute(insert_query, values)
+
+def insert_rbe_data(cursor, data):
+    
+    rbeID = data['rbeID']
+    eventTime = data['eventTime']
+    if data['instruments'] == None:
+        instruments = None
+    else:
+        instruments = json.dumps(data['instruments'])
+    if data['linkedEvents'] == None:
+        linkedEvents = None
+    else:
+        linkedEvents = json.dumps(data['linkedEvents'])
+    link = data['link']
+
+    insert_query = """
+        INSERT INTO donki.rbe_raw (
+        rbeID,
+        eventTime,
+        instruments,
+        linkedEvents,
+        link
+        ) VALUES (%s, %s, %s, %s, %s)
+        """
+
+    cursor.execute(insert_query, (rbeID, eventTime, instruments, linkedEvents, link))

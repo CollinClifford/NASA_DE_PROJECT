@@ -58,5 +58,11 @@ def return_insert_function(web_service, cursor, data):
             logging.info('insert_notifications_data funtion triggered successfuly')
         except Exception as e:
             logging.error(f'insert_notifications_data function failed: {e}')
+    elif web_service == 'DONKI/RBE':
+        try:
+            insert_rbe_data(cursor, data)
+            logging.info('insert_rbe_data function triggered successfully')
+        except Exception as e:
+            logging.error(f'insert_rbe_data function failed: {e}')
     else:
         return
