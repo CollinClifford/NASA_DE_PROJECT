@@ -100,3 +100,28 @@ def insert_gst_data(cursor, data):
     """
 
     cursor.execute(insert_query, (gstId, startTime, allKpIndex, linkedEvents, link))
+
+def insert_hss_data(cursor, data):
+    hssID = data['hssID']
+    eventTime = data['eventTime']
+    if data['instruments'] == None:
+        instruments = None
+    else:
+        instruments = json.dumps(data['instruments'])
+    if data['linkedEvents'] == None:
+        linkedEvents = None
+    else:
+        linkedEvents = json.dumps(data['linkedEvents'])
+    link = data['link']
+
+    insert_query = """
+        INSERT INTO donki.hss_raw (
+        hssID,
+        eventTime,
+        instruments,
+        linkedEvents,
+        link
+        ) VALUES (%s, %s, %s, %s, %s)
+        """
+    
+    cursor.execute(insert_query, (hssID, eventTime, instruments, linkedEvents, link))
