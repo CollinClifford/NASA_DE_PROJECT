@@ -46,5 +46,11 @@ def return_insert_function(web_service, cursor, data):
             logging.info('insert_ips_data function triggered successfully')
         except Exception as e:
             logging.error(f'insert_ips_data function failed: {e}')
+    elif web_service == 'DONKI/MPC':
+        try:
+            insert_mpc_data(cursor, data)
+            logging.info('insert_mpc_data function triggered successfuly')
+        except Exception as e:
+            logging.error(f'insert_mpc_data function failed: {e}')
     else:
         return

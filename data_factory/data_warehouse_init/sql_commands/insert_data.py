@@ -149,3 +149,30 @@ def insert_ips_data(cursor, data):
         """
     
     cursor.execute(insert_query, (catalog, activityID, location, eventTime, link, instruments))
+
+def insert_mpc_data(cursor, data):
+    
+    mpcID = data['mpcID']
+    print(mpcID)
+    eventTime = data['eventTime']
+    if data['instruments'] == None:
+        instruments = None
+    else:
+        instruments = json.dumps(data['instruments'])
+    if data['linkedEvents'] == None:
+        linkedEvents = None
+    else:
+        linkedEvents = json.dumps(data['linkedEvents'])
+    link = data['link']
+
+    insert_query = """
+        INSERT INTO donki.mpc_raw (
+        mpcID,
+        eventTime,
+        instruments,
+        linkedEvents,
+        link
+        ) VALUES (%s, %s, %s, %s, %s)
+        """
+
+    cursor.execute(insert_query, (mpcID, eventTime, instruments, linkedEvents, link))
