@@ -305,3 +305,123 @@ def insert_earth_data(cursor, data):
         """
     
     cursor.execute(insert_query, (date, id, resource, service_version, url))
+
+def insert_earth_data(cursor, data):
+    date = data['date']
+    id = data['id']
+    if data['resource'] == None:
+        resource = None
+    else:
+        resource = json.dumps(data['resource'])
+    service_version = data['service_version']
+    url = data['url']
+
+    insert_query = """
+        INSERT INTO earth.earth_raw (
+        date,
+        id,
+        resource,
+        service_version,
+        url 
+        ) VALUES (%s, %s, %s, %s, %s)
+        """
+    
+    cursor.execute(insert_query, (date, id, resource, service_version, url))
+
+def insert_epic_enhanced_data(cursor, data):
+    identifier = data['identifier']
+    caption = data['caption']
+    image = data['image']
+    version = data['version']
+    if data['centroid_coordinates'] == None:
+        centroid_coordinates = None
+    else:
+        centroid_coordinates = json.dumps(data['centroid_coordinates'])
+    if data['dscovr_j2000_position'] == None:
+        dscovr_j2000_position = None
+    else:
+        dscovr_j2000_position = json.dumps(data['dscovr_j2000_position'])
+    if data['sun_j2000_position'] == None:
+        sun_j2000_position = None
+    else:
+        sun_j2000_position = json.dumps(data['sun_j2000_position'])
+    if data['lunar_j2000_position'] == None:
+        lunar_j2000_position = None
+    else:
+        lunar_j2000_position = json.dumps(data['lunar_j2000_position'])
+    if data['attitude_quaternions'] == None:
+        attitude_quaternions = None
+    else:
+        attitude_quaternions = json.dumps(data['attitude_quaternions'])
+    date = data['date']
+    if data['coords'] == None:
+        coords = None
+    else:
+        coords = json.dumps(data['coords'])
+
+    insert_query = """
+        INSERT INTO epic.epic_enhanced_raw (
+        identifier,
+        caption,
+        image,
+        version,
+        centroid_coordinates,
+        dscovr_j2000_position,
+        lunar_j2000_position,
+        sun_j2000_position,
+        attitude_quaternions,
+        date,
+        coords
+        ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+        """
+    
+    cursor.execute(insert_query, (identifier, caption, image, version, centroid_coordinates, dscovr_j2000_position, lunar_j2000_position, sun_j2000_position, attitude_quaternions, date, coords))
+
+def insert_epic_natural_data(cursor, data):
+    identifier = data['identifier']
+    caption = data['caption']
+    image = data['image']
+    version = data['version']
+    if data['centroid_coordinates'] == None:
+        centroid_coordinates = None
+    else:
+        centroid_coordinates = json.dumps(data['centroid_coordinates'])
+    if data['dscovr_j2000_position'] == None:
+        dscovr_j2000_position = None
+    else:
+        dscovr_j2000_position = json.dumps(data['dscovr_j2000_position'])
+    if data['lunar_j2000_position'] == None:
+        lunar_j2000_position = None
+    else:
+        lunar_j2000_position = json.dumps(data['lunar_j2000_position'])
+    if data['sun_j2000_position'] == None:
+        sun_j2000_position = None
+    else:
+        sun_j2000_position = json.dumps(data['sun_j2000_position'])
+    if data['attitude_quaternions'] == None:
+        attitude_quaternions = None
+    else:
+        attitude_quaternions = json.dumps(data['attitude_quaternions'])
+    date = data['date']
+    if data['coords'] == None:
+        coords = None
+    else:
+        coords = json.dumps(data['coords'])
+
+    insert_query = """
+        INSERT INTO epic.epic_natural_raw (
+        identifier,
+        caption,
+        image,
+        version,
+        centroid_coordinates,
+        dscovr_j2000_position,
+        lunar_j2000_position,
+        sun_j2000_position,
+        attitude_quaternions,
+        date,
+        coords
+        ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+        """
+    
+    cursor.execute(insert_query, (identifier, caption, image, version, centroid_coordinates, dscovr_j2000_position, lunar_j2000_position, sun_j2000_position, attitude_quaternions, date, coords))

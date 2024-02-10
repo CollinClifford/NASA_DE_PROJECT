@@ -82,5 +82,17 @@ def return_insert_function(web_service, cursor, data):
             logging.info('insert_earth_data function triggered successfuly')
         except Exception as e:
             logging.error(f'insert_earth_data function failed: {e}')
+    elif web_service == 'EPIC/api/natural/date/':
+        try:
+            insert_epic_enhanced_data(cursor, data)
+            logging.info('insert_epic_enhanced_data function triggered successfuly')
+        except Exception as e:
+            logging.error(f"insert_epic_enhanced function failed: {e}")
+    elif web_service == 'EPIC/api/enhanced/date/':
+        try:
+            insert_epic_natural_data(cursor, data)
+            logging.info('insert_epic_natural_data function triggered successfuly')
+        except Exception as e:
+            logging.error(f'insert_epic_natural function failed :{e}')
     else:
         return
