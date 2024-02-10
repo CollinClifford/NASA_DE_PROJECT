@@ -1779,5 +1779,57 @@
     "note": "",
     "catalog": "M2M_CATALOG",
     "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29086/-1"
+  },
+  {
+    "time21_5": "2024-02-09T05:05Z",
+    "latitude": -36.0,
+    "longitude": 4.0,
+    "halfAngle": 25.0,
+    "speed": 655.0,
+    "type": "C",
+    "isMostAccurate": true,
+    "associatedCMEID": "2024-02-09T00:12:00-CME-001",
+    "note": "Measurement of leading edge using limited imagery in SOHO LASCO C3 due to the CME's faintness.",
+    "catalog": "M2M_CATALOG",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29116/-1"
+  },
+  {
+    "time21_5": "2024-02-10T07:58Z",
+    "latitude": -65.0,
+    "longitude": 9.0,
+    "halfAngle": 30.0,
+    "speed": 260.0,
+    "type": "S",
+    "isMostAccurate": true,
+    "associatedCMEID": "2024-02-09T17:24:00-CME-001",
+    "note": "Measurement using SOHO LASCO C2/C3 only. Longitude approximated from source location.",
+    "catalog": "M2M_CATALOG",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29123/-1"
+  },
+  {
+    "time21_5": "2024-02-10T06:35Z",
+    "latitude": -20.0,
+    "longitude": -119.0,
+    "halfAngle": 46.0,
+    "speed": 1276.0,
+    "type": "O",
+    "isMostAccurate": true,
+    "associatedCMEID": "2024-02-10T03:48:00-CME-001",
+    "note": "Measurement of leading edge using best fit between SOHO LASCO C3 and STEREO A COR2 beyond the east limb.",
+    "catalog": "M2M_CATALOG",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29108/-1"
+  },
+  {
+    "time21_5": "2024-02-10T10:27Z",
+    "latitude": -37.0,
+    "longitude": 6.0,
+    "halfAngle": 39.0,
+    "speed": 967.0,
+    "type": "C",
+    "isMostAccurate": true,
+    "associatedCMEID": "2024-02-10T07:00:00-CME-001",
+    "note": "Measurement using best fit between SOHO LASCO C2/C3 and STEREO A COR2 in SWPC_CAT.",
+    "catalog": "M2M_CATALOG",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29113/-1"
   }
 ]
