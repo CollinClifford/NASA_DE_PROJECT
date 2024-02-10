@@ -9843,5 +9843,584 @@
         "activityID": "2024-02-08T16:12:00-FLR-001"
       }
     ]
+  },
+  {
+    "activityID": "2024-02-08T19:00:00-CME-001",
+    "catalog": "M2M_CATALOG",
+    "startTime": "2024-02-08T19:00Z",
+    "sourceLocation": "",
+    "activeRegionNum": null,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CME/29097/-1",
+    "note": "Possible coronal signature for this event is a minor opening of field lines behind the eastern limb seen in SDO AIA 171 and 193 imagery starting around 2024-02-08T18:30Z.",
+    "instruments": [
+      {
+        "displayName": "SOHO: LASCO/C2"
+      },
+      {
+        "displayName": "SOHO: LASCO/C3"
+      },
+      {
+        "displayName": "STEREO A: SECCHI/COR2"
+      }
+    ],
+    "cmeAnalyses": [
+      {
+        "time21_5": "2024-02-09T01:14Z",
+        "latitude": -2.0,
+        "longitude": -143.0,
+        "halfAngle": 42.0,
+        "speed": 526.0,
+        "type": "C",
+        "isMostAccurate": true,
+        "note": "",
+        "levelOfData": 0,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29098/-1",
+        "enlilList": [
+          {
+            "modelCompletionTime": "2024-02-09T20:08Z",
+            "au": 2.0,
+            "estimatedShockArrivalTime": null,
+            "estimatedDuration": null,
+            "rmin_re": null,
+            "kp_18": null,
+            "kp_90": null,
+            "kp_135": null,
+            "kp_180": null,
+            "isEarthGB": false,
+            "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/29100/-1",
+            "impactList": [
+              {
+                "isGlancingBlow": false,
+                "location": "Parker Solar Probe",
+                "arrivalTime": "2024-02-11T02:47Z"
+              }
+            ],
+            "cmeIDs": [
+              "2024-02-08T19:00:00-CME-001"
+            ]
+          }
+        ]
+      }
+    ],
+    "linkedEvents": null
+  },
+  {
+    "activityID": "2024-02-08T19:48:00-CME-001",
+    "catalog": "M2M_CATALOG",
+    "startTime": "2024-02-08T19:48Z",
+    "sourceLocation": "S37W100",
+    "activeRegionNum": 13575,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CME/29089/-1",
+    "note": "Eruption from AR 3575 (S37W100) starting around 2024-02-08T18:30Z as seen in SDO AIA 131, 171, 193, 304 imagery",
+    "instruments": [
+      {
+        "displayName": "SOHO: LASCO/C2"
+      },
+      {
+        "displayName": "SOHO: LASCO/C3"
+      },
+      {
+        "displayName": "STEREO A: SECCHI/COR2"
+      }
+    ],
+    "cmeAnalyses": [
+      {
+        "time21_5": "2024-02-09T02:03Z",
+        "latitude": -48.0,
+        "longitude": 104.0,
+        "halfAngle": 23.0,
+        "speed": 559.0,
+        "type": "C",
+        "isMostAccurate": true,
+        "note": "",
+        "levelOfData": 0,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29090/-1",
+        "enlilList": [
+          {
+            "modelCompletionTime": "2024-02-09T18:06Z",
+            "au": 2.0,
+            "estimatedShockArrivalTime": null,
+            "estimatedDuration": null,
+            "rmin_re": null,
+            "kp_18": null,
+            "kp_90": null,
+            "kp_135": null,
+            "kp_180": null,
+            "isEarthGB": false,
+            "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/29092/-1",
+            "impactList": [
+              {
+                "isGlancingBlow": false,
+                "location": "Mars",
+                "arrivalTime": "2024-02-12T02:54Z"
+              },
+              {
+                "isGlancingBlow": false,
+                "location": "OSIRIS-APEX",
+                "arrivalTime": "2024-02-10T12:49Z"
+              },
+              {
+                "isGlancingBlow": true,
+                "location": "Parker Solar Probe",
+                "arrivalTime": "2024-02-11T13:30Z"
+              }
+            ],
+            "cmeIDs": [
+              "2024-02-08T15:23:00-CME-001",
+              "2024-02-08T16:48:00-CME-001",
+              "2024-02-08T19:48:00-CME-001",
+              "2024-02-08T23:48:00-CME-001",
+              "2024-02-09T13:23:00-CME-001"
+            ]
+          },
+          {
+            "modelCompletionTime": "2024-02-09T18:24Z",
+            "au": 5.5,
+            "estimatedShockArrivalTime": null,
+            "estimatedDuration": null,
+            "rmin_re": null,
+            "kp_18": null,
+            "kp_90": null,
+            "kp_135": null,
+            "kp_180": null,
+            "isEarthGB": false,
+            "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/29093/-1",
+            "impactList": [
+              {
+                "isGlancingBlow": false,
+                "location": "Mars",
+                "arrivalTime": "2024-02-12T03:11Z"
+              },
+              {
+                "isGlancingBlow": false,
+                "location": "OSIRIS-APEX",
+                "arrivalTime": "2024-02-10T12:55Z"
+              },
+              {
+                "isGlancingBlow": false,
+                "location": "Lucy",
+                "arrivalTime": "2024-02-14T02:00Z"
+              },
+              {
+                "isGlancingBlow": true,
+                "location": "Parker Solar Probe",
+                "arrivalTime": "2024-02-11T13:30Z"
+              }
+            ],
+            "cmeIDs": [
+              "2024-02-08T15:23:00-CME-001",
+              "2024-02-08T16:48:00-CME-001",
+              "2024-02-08T19:48:00-CME-001",
+              "2024-02-08T23:48:00-CME-001",
+              "2024-02-09T13:23:00-CME-001"
+            ]
+          }
+        ]
+      }
+    ],
+    "linkedEvents": null
+  },
+  {
+    "activityID": "2024-02-08T23:48:00-CME-001",
+    "catalog": "M2M_CATALOG",
+    "startTime": "2024-02-08T23:48Z",
+    "sourceLocation": "S36W100",
+    "activeRegionNum": 13575,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CME/29065/-1",
+    "note": "CME with narrow bulk and wider shock with the source an M3.9 class flare from AR 3575 (S36W100) peaking at 2023-02-08T23:55Z and the associated eruption seen in AIA 193/171 starting ~23:30 with opening of field lines and post-eruptive arcades on/behind the SW limb. CME is fully covered by the nighttime data gap in STEREO.",
+    "instruments": [
+      {
+        "displayName": "SOHO: LASCO/C2"
+      }
+    ],
+    "cmeAnalyses": [
+      {
+        "time21_5": "2024-02-09T03:27Z",
+        "latitude": -37.0,
+        "longitude": 105.0,
+        "halfAngle": 30.0,
+        "speed": 929.0,
+        "type": "C",
+        "isMostAccurate": true,
+        "note": "",
+        "levelOfData": 0,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29070/-1",
+        "enlilList": [
+          {
+            "modelCompletionTime": "2024-02-09T18:06Z",
+            "au": 2.0,
+            "estimatedShockArrivalTime": null,
+            "estimatedDuration": null,
+            "rmin_re": null,
+            "kp_18": null,
+            "kp_90": null,
+            "kp_135": null,
+            "kp_180": null,
+            "isEarthGB": false,
+            "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/29092/-1",
+            "impactList": [
+              {
+                "isGlancingBlow": false,
+                "location": "Mars",
+                "arrivalTime": "2024-02-12T02:54Z"
+              },
+              {
+                "isGlancingBlow": false,
+                "location": "OSIRIS-APEX",
+                "arrivalTime": "2024-02-10T12:49Z"
+              },
+              {
+                "isGlancingBlow": true,
+                "location": "Parker Solar Probe",
+                "arrivalTime": "2024-02-11T13:30Z"
+              }
+            ],
+            "cmeIDs": [
+              "2024-02-08T15:23:00-CME-001",
+              "2024-02-08T16:48:00-CME-001",
+              "2024-02-08T19:48:00-CME-001",
+              "2024-02-08T23:48:00-CME-001",
+              "2024-02-09T13:23:00-CME-001"
+            ]
+          },
+          {
+            "modelCompletionTime": "2024-02-09T18:24Z",
+            "au": 5.5,
+            "estimatedShockArrivalTime": null,
+            "estimatedDuration": null,
+            "rmin_re": null,
+            "kp_18": null,
+            "kp_90": null,
+            "kp_135": null,
+            "kp_180": null,
+            "isEarthGB": false,
+            "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/29093/-1",
+            "impactList": [
+              {
+                "isGlancingBlow": false,
+                "location": "Mars",
+                "arrivalTime": "2024-02-12T03:11Z"
+              },
+              {
+                "isGlancingBlow": false,
+                "location": "OSIRIS-APEX",
+                "arrivalTime": "2024-02-10T12:55Z"
+              },
+              {
+                "isGlancingBlow": false,
+                "location": "Lucy",
+                "arrivalTime": "2024-02-14T02:00Z"
+              },
+              {
+                "isGlancingBlow": true,
+                "location": "Parker Solar Probe",
+                "arrivalTime": "2024-02-11T13:30Z"
+              }
+            ],
+            "cmeIDs": [
+              "2024-02-08T15:23:00-CME-001",
+              "2024-02-08T16:48:00-CME-001",
+              "2024-02-08T19:48:00-CME-001",
+              "2024-02-08T23:48:00-CME-001",
+              "2024-02-09T13:23:00-CME-001"
+            ]
+          }
+        ]
+      },
+      {
+        "time21_5": "2024-02-09T03:31Z",
+        "latitude": -40.0,
+        "longitude": 105.0,
+        "halfAngle": 47.0,
+        "speed": 957.0,
+        "type": "C",
+        "isMostAccurate": true,
+        "note": "",
+        "levelOfData": 0,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29072/-1",
+        "enlilList": null
+      }
+    ],
+    "linkedEvents": [
+      {
+        "activityID": "2024-02-08T23:16:00-FLR-001"
+      }
+    ]
+  },
+  {
+    "activityID": "2024-02-09T13:23:00-CME-001",
+    "catalog": "M2M_CATALOG",
+    "startTime": "2024-02-09T13:23Z",
+    "sourceLocation": "S37W110",
+    "activeRegionNum": 13575,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CME/29066/-1",
+    "note": "The source of this CME is the X3.3 class flare from AR 3575 (S36W110) peaking at 2023-02-09T13:14Z and an associated eruption seen in AIA 193/171 and EUVI A 195 starting ~23:30 as an EUV wave, wide opening of field lines and bright post-eruptive arcades on/behind the SW limb.",
+    "instruments": [
+      {
+        "displayName": "SOHO: LASCO/C2"
+      },
+      {
+        "displayName": "SOHO: LASCO/C3"
+      },
+      {
+        "displayName": "STEREO A: SECCHI/COR2"
+      }
+    ],
+    "cmeAnalyses": [
+      {
+        "time21_5": "2024-02-09T14:31Z",
+        "latitude": -24.0,
+        "longitude": 130.0,
+        "halfAngle": 48.0,
+        "speed": 2534.0,
+        "type": "R",
+        "isMostAccurate": true,
+        "note": "",
+        "levelOfData": 0,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29086/-1",
+        "enlilList": [
+          {
+            "modelCompletionTime": "2024-02-09T20:52Z",
+            "au": 2.0,
+            "estimatedShockArrivalTime": null,
+            "estimatedDuration": null,
+            "rmin_re": null,
+            "kp_18": null,
+            "kp_90": null,
+            "kp_135": null,
+            "kp_180": null,
+            "isEarthGB": false,
+            "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/29102/-1",
+            "impactList": [
+              {
+                "isGlancingBlow": false,
+                "location": "Mars",
+                "arrivalTime": "2024-02-11T05:54Z"
+              },
+              {
+                "isGlancingBlow": false,
+                "location": "OSIRIS-APEX",
+                "arrivalTime": "2024-02-10T05:40Z"
+              },
+              {
+                "isGlancingBlow": true,
+                "location": "Parker Solar Probe",
+                "arrivalTime": "2024-02-10T16:00Z"
+              }
+            ],
+            "cmeIDs": [
+              "2024-02-09T13:23:00-CME-001"
+            ]
+          }
+        ]
+      },
+      {
+        "time21_5": "2024-02-09T15:11Z",
+        "latitude": -34.0,
+        "longitude": 110.0,
+        "halfAngle": 46.0,
+        "speed": 1754.0,
+        "type": "O",
+        "isMostAccurate": true,
+        "note": "",
+        "levelOfData": 0,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29088/-1",
+        "enlilList": [
+          {
+            "modelCompletionTime": "2024-02-09T18:06Z",
+            "au": 2.0,
+            "estimatedShockArrivalTime": null,
+            "estimatedDuration": null,
+            "rmin_re": null,
+            "kp_18": null,
+            "kp_90": null,
+            "kp_135": null,
+            "kp_180": null,
+            "isEarthGB": false,
+            "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/29092/-1",
+            "impactList": [
+              {
+                "isGlancingBlow": false,
+                "location": "Mars",
+                "arrivalTime": "2024-02-12T02:54Z"
+              },
+              {
+                "isGlancingBlow": false,
+                "location": "OSIRIS-APEX",
+                "arrivalTime": "2024-02-10T12:49Z"
+              },
+              {
+                "isGlancingBlow": true,
+                "location": "Parker Solar Probe",
+                "arrivalTime": "2024-02-11T13:30Z"
+              }
+            ],
+            "cmeIDs": [
+              "2024-02-08T15:23:00-CME-001",
+              "2024-02-08T16:48:00-CME-001",
+              "2024-02-08T19:48:00-CME-001",
+              "2024-02-08T23:48:00-CME-001",
+              "2024-02-09T13:23:00-CME-001"
+            ]
+          },
+          {
+            "modelCompletionTime": "2024-02-09T18:24Z",
+            "au": 5.5,
+            "estimatedShockArrivalTime": null,
+            "estimatedDuration": null,
+            "rmin_re": null,
+            "kp_18": null,
+            "kp_90": null,
+            "kp_135": null,
+            "kp_180": null,
+            "isEarthGB": false,
+            "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/29093/-1",
+            "impactList": [
+              {
+                "isGlancingBlow": false,
+                "location": "Mars",
+                "arrivalTime": "2024-02-12T03:11Z"
+              },
+              {
+                "isGlancingBlow": false,
+                "location": "OSIRIS-APEX",
+                "arrivalTime": "2024-02-10T12:55Z"
+              },
+              {
+                "isGlancingBlow": false,
+                "location": "Lucy",
+                "arrivalTime": "2024-02-14T02:00Z"
+              },
+              {
+                "isGlancingBlow": true,
+                "location": "Parker Solar Probe",
+                "arrivalTime": "2024-02-11T13:30Z"
+              }
+            ],
+            "cmeIDs": [
+              "2024-02-08T15:23:00-CME-001",
+              "2024-02-08T16:48:00-CME-001",
+              "2024-02-08T19:48:00-CME-001",
+              "2024-02-08T23:48:00-CME-001",
+              "2024-02-09T13:23:00-CME-001"
+            ]
+          }
+        ]
+      },
+      {
+        "time21_5": "2024-02-09T14:50Z",
+        "latitude": -33.0,
+        "longitude": 110.0,
+        "halfAngle": 48.0,
+        "speed": 2226.0,
+        "type": "R",
+        "isMostAccurate": false,
+        "note": "Analysis with only a couple early timestamps.",
+        "levelOfData": 0,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29067/-1",
+        "enlilList": [
+          {
+            "modelCompletionTime": "2024-02-09T14:28Z",
+            "au": 2.0,
+            "estimatedShockArrivalTime": null,
+            "estimatedDuration": null,
+            "rmin_re": null,
+            "kp_18": null,
+            "kp_90": null,
+            "kp_135": null,
+            "kp_180": null,
+            "isEarthGB": false,
+            "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/29069/-1",
+            "impactList": [
+              {
+                "isGlancingBlow": false,
+                "location": "Mars",
+                "arrivalTime": "2024-02-11T15:16Z"
+              },
+              {
+                "isGlancingBlow": false,
+                "location": "OSIRIS-APEX",
+                "arrivalTime": "2024-02-10T08:26Z"
+              },
+              {
+                "isGlancingBlow": true,
+                "location": "Lucy",
+                "arrivalTime": "2024-02-13T12:00Z"
+              },
+              {
+                "isGlancingBlow": true,
+                "location": "Parker Solar Probe",
+                "arrivalTime": "2024-02-11T10:00Z"
+              }
+            ],
+            "cmeIDs": [
+              "2024-02-09T13:23:00-CME-001"
+            ]
+          },
+          {
+            "modelCompletionTime": "2024-02-09T14:46Z",
+            "au": 5.5,
+            "estimatedShockArrivalTime": null,
+            "estimatedDuration": null,
+            "rmin_re": null,
+            "kp_18": null,
+            "kp_90": null,
+            "kp_135": null,
+            "kp_180": null,
+            "isEarthGB": false,
+            "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/29074/-1",
+            "impactList": [
+              {
+                "isGlancingBlow": false,
+                "location": "Mars",
+                "arrivalTime": "2024-02-11T15:27Z"
+              },
+              {
+                "isGlancingBlow": false,
+                "location": "OSIRIS-APEX",
+                "arrivalTime": "2024-02-10T08:28Z"
+              },
+              {
+                "isGlancingBlow": true,
+                "location": "Parker Solar Probe",
+                "arrivalTime": "2024-02-11T10:00Z"
+              }
+            ],
+            "cmeIDs": [
+              "2024-02-09T13:23:00-CME-001"
+            ]
+          }
+        ]
+      }
+    ],
+    "linkedEvents": [
+      {
+        "activityID": "2024-02-09T12:55:00-FLR-001"
+      },
+      {
+        "activityID": "2024-02-09T15:09:00-SEP-001"
+      },
+      {
+        "activityID": "2024-02-09T15:30:00-SEP-001"
+      },
+      {
+        "activityID": "2024-02-09T15:34:00-SEP-001"
+      },
+      {
+        "activityID": "2024-02-09T15:37:00-SEP-001"
+      },
+      {
+        "activityID": "2024-02-09T15:52:00-SEP-001"
+      },
+      {
+        "activityID": "2024-02-09T15:59:00-SEP-001"
+      },
+      {
+        "activityID": "2024-02-09T16:44:00-SEP-001"
+      },
+      {
+        "activityID": "2024-02-09T16:45:00-SEP-001"
+      }
+    ]
   }
 ]

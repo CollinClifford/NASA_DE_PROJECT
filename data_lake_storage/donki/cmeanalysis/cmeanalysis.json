@@ -1727,5 +1727,57 @@
     "note": "Measurement based on the source location and best fit between SOHO LASCO C3 and STEREO A COR2 imagery. The leading edge becomes diffuse and difficult to track in later imagery.",
     "catalog": "M2M_CATALOG",
     "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29055/-1"
+  },
+  {
+    "time21_5": "2024-02-09T01:14Z",
+    "latitude": -2.0,
+    "longitude": -143.0,
+    "halfAngle": 42.0,
+    "speed": 526.0,
+    "type": "C",
+    "isMostAccurate": true,
+    "associatedCMEID": "2024-02-08T19:00:00-CME-001",
+    "note": "",
+    "catalog": "M2M_CATALOG",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29098/-1"
+  },
+  {
+    "time21_5": "2024-02-09T02:03Z",
+    "latitude": -48.0,
+    "longitude": 104.0,
+    "halfAngle": 23.0,
+    "speed": 559.0,
+    "type": "C",
+    "isMostAccurate": true,
+    "associatedCMEID": "2024-02-08T19:48:00-CME-001",
+    "note": "",
+    "catalog": "M2M_CATALOG",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29090/-1"
+  },
+  {
+    "time21_5": "2024-02-09T03:27Z",
+    "latitude": -37.0,
+    "longitude": 105.0,
+    "halfAngle": 30.0,
+    "speed": 929.0,
+    "type": "C",
+    "isMostAccurate": true,
+    "associatedCMEID": "2024-02-08T23:48:00-CME-001",
+    "note": "",
+    "catalog": "M2M_CATALOG",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29070/-1"
+  },
+  {
+    "time21_5": "2024-02-09T14:31Z",
+    "latitude": -24.0,
+    "longitude": 130.0,
+    "halfAngle": 48.0,
+    "speed": 2534.0,
+    "type": "R",
+    "isMostAccurate": true,
+    "associatedCMEID": "2024-02-09T13:23:00-CME-001",
+    "note": "",
+    "catalog": "M2M_CATALOG",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29086/-1"
   }
 ]
