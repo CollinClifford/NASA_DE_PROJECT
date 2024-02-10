@@ -5,7 +5,7 @@ web_services = {
     ,'DONKI/CMEAnalysis': 'associatedCMEID'
     ,'DONKI/GST': 'gstID'
     ,'DONKI/HSS': 'hssID'
-    # ,'DONKI/IPS': 'activityID'
+    ,'DONKI/IPS': 'activityID'
     # ,'DONKI/MPC': 'mpcID'
     # ,'DONKI/notifications': 'messageID'
     # ,'DONKI/RBE': 'rbeID'

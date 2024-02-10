@@ -125,3 +125,27 @@ def insert_hss_data(cursor, data):
         """
     
     cursor.execute(insert_query, (hssID, eventTime, instruments, linkedEvents, link))
+
+def insert_ips_data(cursor, data):
+    catalog = data['catalog']
+    activityID = data['activityID']
+    location = data['location']
+    eventTime = data['eventTime']
+    link = data['link']
+    if data['instruments'] == None:
+        instruments = None
+    else:
+        instruments = json.dumps(data['instruments'])
+
+    insert_query = """
+        INSERT INTO donki.ips_raw (
+        catalog,
+        activityID,
+        location,
+        eventTime,
+        link,
+        instruments
+        ) VALUES (%s, %s, %s, %s, %s, %s)
+        """
+    
+    cursor.execute(insert_query, (catalog, activityID, location, eventTime, link, instruments))
