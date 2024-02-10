@@ -213,3 +213,29 @@ def insert_rbe_data(cursor, data):
         """
 
     cursor.execute(insert_query, (rbeID, eventTime, instruments, linkedEvents, link))
+
+def insert_sep_data(cursor, data):
+    
+    sepID = data['sepID']
+    eventTime = data['eventTime']
+    if data['instruments'] == None:
+        instruments = None
+    else:
+        instruments = json.dumps(data['instruments'])
+    if data['linkedEvents'] == None:
+        linkedEvents = None
+    else:
+        linkedEvents = json.dumps(data['linkedEvents'])
+    link = data['link']
+
+    insert_query = """
+        INSERT INTO donki.sep_raw (
+        sepID,
+        eventTime,
+        instruments,
+        linkedEvents,
+        link
+        ) VALUES (%s, %s, %s, %s, %s)
+        """
+
+    cursor.execute(insert_query, (sepID, eventTime, instruments, linkedEvents, link))

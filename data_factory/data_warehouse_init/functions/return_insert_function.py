@@ -64,5 +64,11 @@ def return_insert_function(web_service, cursor, data):
             logging.info('insert_rbe_data function triggered successfully')
         except Exception as e:
             logging.error(f'insert_rbe_data function failed: {e}')
+    elif web_service == 'DONKI/SEP':
+        try:
+            insert_sep_data(cursor, data)
+            logging.info('insert_sep_data function triggered successfully')
+        except Exception as e:
+            logging.error(f'insert_sep_data function failed: {e}')
     else:
         return

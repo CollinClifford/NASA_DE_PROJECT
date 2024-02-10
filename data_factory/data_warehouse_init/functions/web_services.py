@@ -9,7 +9,7 @@ web_services = {
     ,'DONKI/MPC': 'mpcID'
     ,'DONKI/notifications': 'messageID'
     ,'DONKI/RBE': 'rbeID'
-    # ,'DONKI/SEP': 'sepID'
+    ,'DONKI/SEP': 'sepID'
     # ,'DONKI/WSAEnlilSimulations': 'simulationID'
     # ,'EPIC/api/natural/date/': 'identifier'
     # ,'EPIC/api/enhanced/date/': 'identifier'
