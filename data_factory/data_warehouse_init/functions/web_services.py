@@ -3,7 +3,7 @@ web_services = {
     ,'neo/rest/v1/feed': 'date'
     ,'DONKI/CME': 'activityID'
     ,'DONKI/CMEAnalysis': 'associatedCMEID'
-    # ,'DONKI/GST': 'gstID'
+    ,'DONKI/GST': 'gstID'
     # ,'DONKI/HSS': 'hssID'
     # ,'DONKI/IPS': 'activityID'
     # ,'DONKI/MPC': 'mpcID'

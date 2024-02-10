@@ -65,24 +65,7 @@ def insert_cme_data(cursor, data):
     cursor.execute(insert_query, (activityID, catalog, startTime, sourceLocation, activeRegionNum, link, note, instruments, cmeAnalyses, linkedEvents))
 
 def insert_cme_analysis_data(cursor, data):
-    # print(data)
-    # insert_query = """
-    #     INSERT INTO donki.cme_analysis_raw (
-    #     time21_5,
-    #     latitude, 
-    #     longitude,
-    #     halfAngle, 
-    #     speed,
-    #     type, 
-    #     isMostAccurate, 
-    #     associatedCMEID, 
-    #     note, 
-    #     catalog,
-    #     link
-    #     )
-    #     VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
-    # """
-    # cursor.execute(insert_query, data)
+
     columns = data.keys()
     values = [data[column] for column in columns]
 
@@ -92,3 +75,28 @@ def insert_cme_analysis_data(cursor, data):
         """
     
     cursor.execute(insert_query, values)
+
+def insert_gst_data(cursor, data):
+    gstId = data['gstID']
+    startTime = data['startTime']
+    if data['allKpIndex'] == None:
+        allKpIndex = None
+    else:
+        allKpIndex = json.dumps(data['allKpIndex'])
+    if data['linkedEvents'] == None:
+        linkedEvents = None
+    else:
+        linkedEvents = json.dumps(data['linkedEvents'])
+    link = data['link']
+
+    insert_query = """
+        INSERT INTO donki.gst_raw (
+        gstId,
+        startTime,
+        allKpIndex,
+        linkedEvents,
+        link
+        ) VALUES (%s, %s, %s, %s, %s)
+    """
+
+    cursor.execute(insert_query, (gstId, startTime, allKpIndex, linkedEvents, link))

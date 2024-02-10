@@ -28,5 +28,11 @@ def return_insert_function(web_service, cursor, data):
             logging.info('insert_cme_analysis_data function triggered successfully')
         except Exception as e:
             logging.error(f"insert_cme_analysis_data function failed: {e}")
+    elif web_service == "DONKI/GST":
+        try:
+            insert_gst_data(cursor, data)
+            logging.info('insert_gst_data function triggered successfully.')
+        except Exception as e:
+            logging.error(f'insert_gst_data function failed: {e}')
     else:
         return
