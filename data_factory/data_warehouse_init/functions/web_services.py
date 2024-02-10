@@ -10,7 +10,7 @@ web_services = {
     ,'DONKI/notifications': 'messageID'
     ,'DONKI/RBE': 'rbeID'
     ,'DONKI/SEP': 'sepID'
-    # ,'DONKI/WSAEnlilSimulations': 'simulationID'
+    ,'DONKI/WSAEnlilSimulations': 'simulationID'
     # ,'EPIC/api/natural/date/': 'identifier'
     # ,'EPIC/api/enhanced/date/': 'identifier'
     # ,'mars-photos/api/v1/rovers/perseverance/photos': 'id'

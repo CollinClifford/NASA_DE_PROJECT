@@ -239,3 +239,47 @@ def insert_sep_data(cursor, data):
         """
 
     cursor.execute(insert_query, (sepID, eventTime, instruments, linkedEvents, link))
+
+def insert_wsaenlilsimulations_data(cursor, data):
+    
+    simulationID = data['simulationID']
+    modelCompletionTime = data['modelCompletionTime']
+    au = data['au']
+    if data['cmeInputs'] == None:
+        cmeInputs = None
+    else:
+        cmeInputs = json.dumps(data['cmeInputs'])
+    estimatedShockArrivalTime = data['estimatedShockArrivalTime']
+    estimatedDuration = data['estimatedDuration']
+    rmin_re = data['rmin_re']
+    kp_18 = data['kp_18']
+    kp_90 = data['kp_90']
+    kp_135 = data['kp_135']
+    kp_180 = data['kp_180']
+    isEarthGB = data['isEarthGB']
+    if data['impactList'] == None:
+        impactList = None
+    else:
+        impactList = json.dumps(data['impactList'])
+    link = data['link']
+
+    insert_query = """
+        INSERT INTO donki.wsaenlilsimulations_raw (
+        simulationID,
+        modelCompletionTime,
+        au,
+        cmeInputs,
+        estimatedShockArrivalTime,
+        estimatedDuration,
+        rmin_re,
+        kp_18,
+        kp_90,
+        kp_135,
+        kp_180,
+        isEarthGB,
+        impactList,
+        link
+        ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+        """
+
+    cursor.execute(insert_query, (simulationID, modelCompletionTime, au, cmeInputs, estimatedShockArrivalTime, estimatedDuration, rmin_re, kp_18, kp_90, kp_135, kp_180, isEarthGB, impactList, link))
