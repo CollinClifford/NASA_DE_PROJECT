@@ -10788,5 +10788,126 @@
       }
     ],
     "linkedEvents": null
+  },
+  {
+    "activityID": "2024-02-10T23:36:00-CME-001",
+    "catalog": "M2M_CATALOG",
+    "startTime": "2024-02-10T23:36Z",
+    "sourceLocation": "S12W13",
+    "activeRegionNum": 13576,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CME/29134/-1",
+    "note": "Partial halo shock to the north with bulk portion to the NW in SOHO LASCO C2, C3 and following a data gap in STEREO A COR2 imagery. The source is an M9.0 flare from AR13576 starting at 2024-02-10T22:56Z with clear deflection NW seen as dimming and EUV wave in SDO/AIA 193, 211, 304, and 171. There is also filament ejecta seen during and following the eruption in SDO/AIA 304.",
+    "instruments": [
+      {
+        "displayName": "SOHO: LASCO/C2"
+      },
+      {
+        "displayName": "SOHO: LASCO/C3"
+      },
+      {
+        "displayName": "STEREO A: SECCHI/COR2"
+      }
+    ],
+    "cmeAnalyses": [
+      {
+        "time21_5": "2024-02-11T03:13Z",
+        "latitude": 16.0,
+        "longitude": 13.0,
+        "halfAngle": 34.0,
+        "speed": 912.0,
+        "type": "C",
+        "isMostAccurate": true,
+        "note": "Preliminary BULK measurement using first available frames in SOHO imagery. No STEREO A imagery available at time of measurement.",
+        "levelOfData": 0,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29135/-1",
+        "enlilList": [
+          {
+            "modelCompletionTime": "2024-02-11T02:30Z",
+            "au": 2.0,
+            "estimatedShockArrivalTime": "2024-02-13T14:43Z",
+            "estimatedDuration": 25.1,
+            "rmin_re": 5.7,
+            "kp_18": null,
+            "kp_90": 4,
+            "kp_135": 6,
+            "kp_180": 7,
+            "isEarthGB": false,
+            "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/29136/-1",
+            "impactList": [
+              {
+                "isGlancingBlow": false,
+                "location": "STEREO A",
+                "arrivalTime": "2024-02-13T12:57Z"
+              },
+              {
+                "isGlancingBlow": true,
+                "location": "Psyche",
+                "arrivalTime": "2024-02-15T20:00Z"
+              },
+              {
+                "isGlancingBlow": true,
+                "location": "Solar Orbiter",
+                "arrivalTime": "2024-02-13T06:00Z"
+              }
+            ],
+            "cmeIDs": [
+              "2024-02-10T23:36:00-CME-001"
+            ]
+          }
+        ]
+      },
+      {
+        "time21_5": "2024-02-11T02:49Z",
+        "latitude": 10.0,
+        "longitude": -6.0,
+        "halfAngle": 45.0,
+        "speed": 989.0,
+        "type": "C",
+        "isMostAccurate": true,
+        "note": "Preliminary SHOCK measurement based on SOHO LASCO C3 imagery. STEREO A imagery following data gap does not show a clear shock.",
+        "levelOfData": 0,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29138/-1",
+        "enlilList": [
+          {
+            "modelCompletionTime": "2024-02-11T03:28Z",
+            "au": 2.0,
+            "estimatedShockArrivalTime": "2024-02-13T05:17Z",
+            "estimatedDuration": 26.7,
+            "rmin_re": 5.1,
+            "kp_18": null,
+            "kp_90": 6,
+            "kp_135": 8,
+            "kp_180": 8,
+            "isEarthGB": false,
+            "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/29139/-1",
+            "impactList": [
+              {
+                "isGlancingBlow": false,
+                "location": "Psyche",
+                "arrivalTime": "2024-02-14T20:35Z"
+              },
+              {
+                "isGlancingBlow": false,
+                "location": "Solar Orbiter",
+                "arrivalTime": "2024-02-12T16:32Z"
+              },
+              {
+                "isGlancingBlow": false,
+                "location": "STEREO A",
+                "arrivalTime": "2024-02-13T04:48Z"
+              }
+            ],
+            "cmeIDs": [
+              "2024-02-10T23:36:00-CME-001"
+            ]
+          }
+        ]
+      }
+    ],
+    "linkedEvents": [
+      {
+        "activityID": "2024-02-10T22:56:00-FLR-001"
+      }
+    ]
   }
 ]

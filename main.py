@@ -13,6 +13,7 @@ current_directory = os.path.dirname(os.path.abspath(__file__))
 api_trigger = os.path.join(current_directory, 'extraction_scripts/api_extraction.py')
 db_trigger = os.path.join(current_directory, 'data_factory/data_factory.py')
 
+print('Starting program.')
 try:
     subprocess.run(['python', api_trigger])
 except Exception as e:
@@ -22,3 +23,4 @@ try:
     subprocess.run(['python', db_trigger])
 except Exception as e:
     logging.error(f"One or more subprocesses failed: {e}")
+print('Program complete.  Check logs for details.')
