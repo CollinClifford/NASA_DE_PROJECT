@@ -33,7 +33,6 @@ def append_to_json(data, web_service, unique_id):
                 existing_dates = [entry.get('date') for entry in existing_data]
                 if date not in existing_dates:
                     existing_data.append({'date': date, 'objects': objects_list})
-                    logging.info(f"Data for date {date} appended successfully.")
                 else:
                     logging.info(f"Data for date {date} already exists. Skipping append.")
                     
@@ -52,7 +51,6 @@ def append_to_json(data, web_service, unique_id):
                 existing_dates = [entry.get(unique_id) for entry in existing_data]
                 if id not in existing_dates:
                     existing_data.append(data)
-                    logging.info(f"Data for date {id} appended successfully.")
                 else:
                     logging.info(f"Data for date {id} already exists. Skipping append.")
                     
@@ -70,7 +68,6 @@ def append_to_json(data, web_service, unique_id):
                 existing_data.append(data)
                 with open(json_file_path, 'w', encoding='utf-8') as file:
                     json.dump(existing_data, file, indent=2)
-                logging.info("Data appended successfully.")
             else:
                 logging.info(f"Data with date {data[unique_id]} already exists. Skipping append.")
                 

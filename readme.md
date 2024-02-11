@@ -20,8 +20,8 @@ This project consists of several components.
 This program is stored on a Raspbery Pi server and runs at midnight daily.  It runs in the following order.
 1. Cycles through NASA Open API Web Services updating JSON with missing data
 2. Runs Data Pipeline to perform ETL processes
-3. Drops/Creates new tables in database
-4. Inserts raw data
+    - Drops/Creates new tables in database
+    - Inserts raw data
 
 ![NASA_proj workflow diagram](./media/NASA_proj_wf.jpg)
 
