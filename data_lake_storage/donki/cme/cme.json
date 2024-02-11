@@ -10909,5 +10909,38 @@
         "activityID": "2024-02-10T22:56:00-FLR-001"
       }
     ]
+  },
+  {
+    "activityID": "2024-02-10T14:48:00-CME-001",
+    "catalog": "M2M_CATALOG",
+    "startTime": "2024-02-10T14:48Z",
+    "sourceLocation": "",
+    "activeRegionNum": null,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CME/29142/-1",
+    "note": "Loop CME seen to the SW in SOHO LASCO C2 and C3. Source is likely the opening of field lines and what appears to be liftoff of some material from beyond the SW limb around 2024-02-10T12:45Z, seen in GOES SUVI 284 and faintly in SDO AIA 193. CME is not visible in STEREO A COR2 due to a data gap from 2024-02-10T15:23Z to 2024-02-11TT02:23Z.",
+    "instruments": [
+      {
+        "displayName": "SOHO: LASCO/C2"
+      },
+      {
+        "displayName": "SOHO: LASCO/C3"
+      }
+    ],
+    "cmeAnalyses": [
+      {
+        "time21_5": "2024-02-11T05:01Z",
+        "latitude": -70.0,
+        "longitude": null,
+        "halfAngle": 31.0,
+        "speed": 314.0,
+        "type": "S",
+        "isMostAccurate": true,
+        "note": "Plane-of-Sky measurement using candidate farsided source location as seen in UV imagery. CME is not visible in STEREO A COR2 due to a data gap from 2024-02-10T15:23Z to 2024-02-11TT02:23Z.",
+        "levelOfData": 0,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29143/-1",
+        "enlilList": null
+      }
+    ],
+    "linkedEvents": null
   }
 ]
