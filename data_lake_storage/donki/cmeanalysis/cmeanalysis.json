@@ -1844,5 +1844,31 @@
     "note": "Preliminary BULK measurement using first available frames in SOHO imagery. No STEREO A imagery available at time of measurement.",
     "catalog": "M2M_CATALOG",
     "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29135/-1"
+  },
+  {
+    "time21_5": "2024-02-11T04:59Z",
+    "latitude": -40.0,
+    "longitude": 15.0,
+    "halfAngle": 21.0,
+    "speed": 304.0,
+    "type": "S",
+    "isMostAccurate": true,
+    "associatedCMEID": "2024-02-10T15:36:00-CME-001",
+    "note": "Uncertain measurement of asymmetrical leading edge using candidate source location seen in UV imagery. CME is only visible for a few frames in STEREO A COR2 due to a data gap from 2024-02-10T15:23Z to 2024-02-11TT02:23Z and is overlapped by other features.",
+    "catalog": "M2M_CATALOG",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29146/-1"
+  },
+  {
+    "time21_5": "2024-02-11T08:47Z",
+    "latitude": 19.0,
+    "longitude": 19.0,
+    "halfAngle": 15.0,
+    "speed": 585.0,
+    "type": "C",
+    "isMostAccurate": true,
+    "associatedCMEID": "2024-02-11T03:12:00-CME-001",
+    "note": "Measurement using source location with heavy NW deflection, and best fit between coronagraphs.",
+    "catalog": "M2M_CATALOG",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29149/-1"
   }
 ]

@@ -8,6 +8,8 @@ from sql_commands.drop_table import *
 from functions.return_path import return_path
 from functions.web_services import web_services
 from functions.return_insert_function import return_insert_function
+from sql_commands.drop_view import drop_view
+from sql_commands.create_view import *
 
 logging.basicConfig(filename='logs/main.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -41,7 +43,10 @@ def main():
 
         logging.info("Connection successful.")
 
-        # Runs through array of drop table functions and triggers them.
+        # Drop views.
+        drop_view(cursor, 'donki')
+
+        # Drop tables.
         try:
             dt_apod(cursor)
             dt_cme(cursor)
@@ -103,7 +108,29 @@ def main():
                     return_insert_function(web_service, cursor, record)
             logging.info('Data successfully inserted.')
         except Exception as e:
-            logging.error('An error occered while inserting data: {e}')
+            logging.error(f'An error occered while inserting data: {e}')
+
+        # Create views.
+        try:
+            create_wsa_il_vw(cursor)
+            create_wsa_cmei_vw(cursor)
+            sep_le_vw(cursor)
+            sep_i_vw(cursor)
+            rbe_le_vw(cursor)
+            rbe_i_vw(cursor)
+            mpc_le_vw(cursor)
+            mpc_i_vw(cursor)
+            ip_i_vw(cursor)
+            hss_le_vw(cursor)
+            hss_i_vw(cursor)
+            gst_le_vw(cursor)
+            cme_le_vw(cursor)
+            cme_a_vw(cursor)
+            gst_kpi_vw(cursor)
+            cme_i_vw(cursor)
+            logging.info('View successfully created.')
+        except Exception as e:
+            logging.error(f'An error occured while creating views: {e}')
 
         conn.commit()
         conn.close()

@@ -4162,5 +4162,34 @@
       }
     ],
     "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/29139/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/29147/1",
+    "modelCompletionTime": "2024-02-11T23:18Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-02-10T15:36Z",
+        "latitude": -40.0,
+        "longitude": 15.0,
+        "speed": 304.0,
+        "halfAngle": 21.0,
+        "time21_5": "2024-02-11T04:59Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-02-10T15:36:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": null,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/29147/-1"
   }
 ]
