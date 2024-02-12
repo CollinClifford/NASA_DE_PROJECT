@@ -11,7 +11,7 @@ This project consists of several components.
 - Data Pipeline/Factory (WIP)\
 *used to perfrom ETL process before loading to data warehouse*
 - Data Warehouse (WIP)\
-*stores relational tables in postgresql local server*
+*stores relational tables/views in postgresql local server*
 - Stored Procedures (WIP)\
 *will be used to create processes for data maintainance and governance*
 
@@ -20,8 +20,10 @@ This project consists of several components.
 This program is stored on a Raspbery Pi server and runs at midnight daily.  It runs in the following order.
 1. Cycles through NASA Open API Web Services updating JSON with missing data
 2. Runs Data Pipeline to perform ETL processes
+    - Drops views
     - Drops/Creates new tables in database
     - Inserts raw data
+    - Create views
 
 ![NASA_proj workflow diagram](./media/NASA_proj_wf.jpg)
 
@@ -30,10 +32,75 @@ As this is largely a learning opportunity for the construction of Data Warehouse
 ## Components
 
 - `./data_factory`
+    - `./data_warehouse_init`
+        - `./functions`
+            - `./return_insert_function.py`
+            - `./return_path.py`
+            - `./web_services.py`
+        - `./sql_commands`
+            - `create_table.py`
+            - `create_view.py`
+            - `drop_table.py`
+            - `drop_view.py`
+            - `insert_data.py`
+        - `./database_init.py`
+    - `./data_factory.py`
 - `./data_lake_storage`
+    - `./apod`
+        - `./apod.json`
+    - `./donki`
+        - `./cme`
+            - `./cme.json`
+        - `./cmeanalysis`
+            - `./cmeanalysis.json`
+        - `./gst`
+            - `./gst.json`
+        - `./hss`
+            - `./hss.json`
+        - `./ips`
+            - `./ips.json`
+        - `./mpc`
+            - `./mpc.json`
+        - `./notifications`
+            - `./notifications.json`
+        - `./rbe`
+            - `./rbe.json`
+        - `./sep`
+            - `./sep.json`
+        - `./wsaenlilsimulations`
+            - `./wsaenlilsimulations.json`
+    - `./earth`
+        - `./earth.json`
+    - `./epic`
+        - `./enhanced`
+            - `./epic_enhanced.json`
+        - `./natural`
+            - `./epic_natural.json`
+    - `./mars_rover_photos`
+        - `./curiosity`
+            - `./curiosity.json`
+        - `./opportunity`
+            - `./opportunity.json`
+        - `./perseverance`
+            - `./perseverance.json`
+        - `./spirit`
+            - `./spirit.json`
+    - `./neows`
+        - `./neows.json`
 - `./extraction_scripts`
+    - `./functions`
+        - `./append_to_json.py`
+        - `./return_json.py`
+        - `./return_params`
+        - `./return_path.py`
+    - `./api_extraction.py`
+    - `./api_keys.py`
 - `./logs`
+    - `./main.logs`
 - `./media`
+    - `apod.jpg`
+    - `NASA_proj_db.jpg`
+    - `NASA_proj_wf.jpg`
 - `.env`
 - `.gitignore`
 - `./main.py`
