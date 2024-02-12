@@ -3,104 +3,42 @@
 # NASA_DE_PROJECT: A data factoy using NASA Open API Web Services 
 ![Nasa Astronomy Picture of the Day Example](./media/apod.jpg)
 
-This project consists of several components.
-- Data Lake (WIP)\
-*raw data files are stored*
-- Extraction Scripts (WIP)\
+The NASA_DE_PROJECT takes public information provided through a network of NASA's Open APIs and populates a local database that owners can use to perform data analysis, create visualizations from, or practice data goverance/administrative exercises on.\
+As this is largely a learning opportunity for the construction of Data Warehouses, historical data only spans back through 2024.  After this project is complete, historical data will be considered.
+
+This project consists of the following components.
+- Extraction (WIP)\
 *used to make API calls and store raw data in Data Lake*
 - Data Pipeline/Factory (WIP)\
 *used to perfrom ETL process before loading to data warehouse*
 - Data Warehouse (WIP)\
 *stores relational tables/views in postgresql local server*
-- Stored Procedures (WIP)\
+- Stored Procedures (TBD)\
 *will be used to create processes for data maintainance and governance*
 
 ##### Summary
 
-This program is stored on a Raspbery Pi server and runs at midnight daily.  It runs in the following order.
-1. Cycles through NASA Open API Web Services updating JSON with missing data
+Currently, the program works in the following order:
+1. Cycles through NASA Open API Web Services, updating JSON with missing data
 2. Runs Data Pipeline to perform ETL processes
     - Drops views
     - Drops/Creates new tables in database
     - Inserts raw data
     - Create views
 
-![NASA_proj workflow diagram](./media/NASA_proj_wf.jpg)
-
-As this is largely a learning opportunity for the construction of Data Warehouses, historical data only spans back through 2024.  After this project is complete, historical data will be considered.  
+![NASA_proj workflow diagram](./media/NASA_proj_wf.jpg)  
 
 ## Components
 
 - `./data_factory`
     - `./data_warehouse_init`
         - `./functions`
-            - `./return_insert_function.py`
-            - `./return_path.py`
-            - `./web_services.py`
         - `./sql_commands`
-            - `create_table.py`
-            - `create_view.py`
-            - `drop_table.py`
-            - `drop_view.py`
-            - `insert_data.py`
-        - `./database_init.py`
-    - `./data_factory.py`
 - `./data_lake_storage`
-    - `./apod`
-        - `./apod.json`
-    - `./donki`
-        - `./cme`
-            - `./cme.json`
-        - `./cmeanalysis`
-            - `./cmeanalysis.json`
-        - `./gst`
-            - `./gst.json`
-        - `./hss`
-            - `./hss.json`
-        - `./ips`
-            - `./ips.json`
-        - `./mpc`
-            - `./mpc.json`
-        - `./notifications`
-            - `./notifications.json`
-        - `./rbe`
-            - `./rbe.json`
-        - `./sep`
-            - `./sep.json`
-        - `./wsaenlilsimulations`
-            - `./wsaenlilsimulations.json`
-    - `./earth`
-        - `./earth.json`
-    - `./epic`
-        - `./enhanced`
-            - `./epic_enhanced.json`
-        - `./natural`
-            - `./epic_natural.json`
-    - `./mars_rover_photos`
-        - `./curiosity`
-            - `./curiosity.json`
-        - `./opportunity`
-            - `./opportunity.json`
-        - `./perseverance`
-            - `./perseverance.json`
-        - `./spirit`
-            - `./spirit.json`
-    - `./neows`
-        - `./neows.json`
 - `./extraction_scripts`
     - `./functions`
-        - `./append_to_json.py`
-        - `./return_json.py`
-        - `./return_params`
-        - `./return_path.py`
-    - `./api_extraction.py`
-    - `./api_keys.py`
 - `./logs`
-    - `./main.logs`
 - `./media`
-    - `apod.jpg`
-    - `NASA_proj_db.jpg`
-    - `NASA_proj_wf.jpg`
 - `.env`
 - `.gitignore`
 - `./main.py`
@@ -119,10 +57,16 @@ As this is largely a learning opportunity for the construction of Data Warehouse
     - Create Data Pipeline/Factory for APOD, NeoWs.
 - **Version 1.2**
     - Connected to EARTH, EPIC, Mars_Rover_Photos APIs.
-    - Create Data Pipeline/Factory for DONKI
-
+    - Create Data Pipeline/Factory for above APIs.
+- **Version 2**
+    - Connect other APIS.
+    - Create Data Pipeline/Factory for new APIs.
+    
 ## Installation and Execution
-*Note:* This project uses python3.
+*Note:*\
+The user should have [python3](https://pypi.org/project/pip/) installed\
+as well as have a clear understanding of [pip](https://pypi.org/project/pip/)\
+and [postgresql](https://pypi.org/project/pip/).
 1. **Clone Repository:**
     ```bash
     git clone https://github.com/CollinClifford/NASA_DE_PROJECT
@@ -154,3 +98,5 @@ As this is largely a learning opportunity for the construction of Data Warehouse
     Execute the bash script:
     ```bash
     python3 ./main.py
+
+please contact collinclifford@ymail.com for any inquiries about this program.
