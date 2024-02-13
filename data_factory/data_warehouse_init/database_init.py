@@ -10,6 +10,8 @@ from functions.web_services import web_services
 from functions.return_insert_function import return_insert_function
 from sql_commands.drop_view import drop_view
 from sql_commands.create_view import *
+from sql_commands.drop_schema import drop_schema
+from sql_commands.create_schema import create_schema
 
 logging.basicConfig(filename='logs/main.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -70,6 +72,20 @@ def main():
             logging.info(f"Tables Successfully Dropped.")
         except Exception as e:
             logging.error(f"An error occured while dropping table: {e}")
+
+        # Drops schemas
+        try:
+            drop_schema(cursor)
+            logging.info(f"Schemas Successfuly Dropped.")
+        except Exception as e:
+            logging.error(f'An error occured while dropping schemas: {e}')
+
+        # Creates schemas
+        try:
+            create_schema(cursor)
+            logging.info(f"Schemas Successfuly Created.")
+        except Exception as e:
+            logging.error(f'An error occured while created schemas: {e}')
 
         # Runs through array of create table functions and triggers them.
         try:
