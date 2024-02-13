@@ -1961,5 +1961,31 @@
     "note": "Preliminary measurement using limited available frames in SOHO LASCO C2/C3. STEREO A COR2 imagery was not available at the time of this measurement. Longitude approximated from the source.",
     "catalog": "M2M_CATALOG",
     "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29189/-1"
+  },
+  {
+    "time21_5": "2024-02-13T00:28Z",
+    "latitude": 14.0,
+    "longitude": -116.0,
+    "halfAngle": 50.0,
+    "speed": 999.0,
+    "type": "C",
+    "isMostAccurate": true,
+    "associatedCMEID": "2024-02-12T22:18:00-CME-001",
+    "note": "A very approximate analysis with one coronagraph (C3) in swpc_cat and with the source being behind the east limb.",
+    "catalog": "M2M_CATALOG",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29206/-1"
+  },
+  {
+    "time21_5": "2024-02-13T12:21Z",
+    "latitude": 4.0,
+    "longitude": -100.0,
+    "halfAngle": 18.0,
+    "speed": 791.0,
+    "type": "C",
+    "isMostAccurate": true,
+    "associatedCMEID": "2024-02-13T08:09:00-CME-001",
+    "note": "A very approximate analysis (since the source is behind limb and the front is faint in both coronagraphs).",
+    "catalog": "M2M_CATALOG",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29210/-1"
   }
 ]

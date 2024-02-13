@@ -431,5 +431,35 @@
       }
     ],
     "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/SEP/29158/-1"
+  },
+  {
+    "sepID": "2024-02-12T07:41:00-SEP-002",
+    "eventTime": "2024-02-12T07:41Z",
+    "instruments": [
+      {
+        "displayName": "SOHO: COSTEP 28.2-50.1 MeV"
+      }
+    ],
+    "linkedEvents": [
+      {
+        "activityID": "2024-02-12T06:36:00-CME-001"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/SEP/29208/-1"
+  },
+  {
+    "sepID": "2024-02-13T02:22:00-SEP-001",
+    "eventTime": "2024-02-13T02:22Z",
+    "instruments": [
+      {
+        "displayName": "STEREO A: IMPACT 13-100 MeV"
+      }
+    ],
+    "linkedEvents": [
+      {
+        "activityID": "2024-02-12T06:36:00-CME-001"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/SEP/29199/-1"
   }
 ]
