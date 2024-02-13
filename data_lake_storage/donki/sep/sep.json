@@ -386,5 +386,50 @@
     ],
     "linkedEvents": null,
     "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/SEP/29132/-1"
+  },
+  {
+    "sepID": "2024-02-12T07:41:00-SEP-001",
+    "eventTime": "2024-02-12T07:41Z",
+    "instruments": [
+      {
+        "displayName": "STEREO A: IMPACT 13-100 MeV"
+      }
+    ],
+    "linkedEvents": [
+      {
+        "activityID": "2024-02-12T06:36:00-CME-001"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/SEP/29154/-1"
+  },
+  {
+    "sepID": "2024-02-12T08:05:00-SEP-001",
+    "eventTime": "2024-02-12T08:05Z",
+    "instruments": [
+      {
+        "displayName": "GOES-P: SEISS >10 MeV"
+      }
+    ],
+    "linkedEvents": [
+      {
+        "activityID": "2024-02-12T06:36:00-CME-001"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/SEP/29156/-1"
+  },
+  {
+    "sepID": "2024-02-12T10:15:00-SEP-001",
+    "eventTime": "2024-02-12T10:15Z",
+    "instruments": [
+      {
+        "displayName": "GOES-P: SEISS >100 MeV"
+      }
+    ],
+    "linkedEvents": [
+      {
+        "activityID": "2024-02-12T06:36:00-CME-001"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/SEP/29158/-1"
   }
 ]

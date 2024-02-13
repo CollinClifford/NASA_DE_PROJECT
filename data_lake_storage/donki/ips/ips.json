@@ -286,5 +286,29 @@
         "displayName": "ACE: MAG"
       }
     ]
+  },
+  {
+    "catalog": "M2M_CATALOG",
+    "activityID": "2024-02-11T02:30:00-IPS-001",
+    "location": "STEREO A",
+    "eventTime": "2024-02-11T02:30Z",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/IPS/29175/-1",
+    "instruments": [
+      {
+        "displayName": "STEREO A: IMPACT"
+      }
+    ]
+  },
+  {
+    "catalog": "M2M_CATALOG",
+    "activityID": "2024-02-11T16:00:00-IPS-001",
+    "location": "STEREO A",
+    "eventTime": "2024-02-11T16:00Z",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/IPS/29176/-1",
+    "instruments": [
+      {
+        "displayName": "STEREO A: IMPACT"
+      }
+    ]
   }
 ]
