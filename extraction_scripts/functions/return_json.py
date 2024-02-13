@@ -21,7 +21,6 @@ def return_json(web_service, api_key, start_date, end_date, lat, lon):
     # Condition to apply Lattitude and Longitude if Earth API is being called.
     if web_service == 'planetary/earth/assets':
         params = return_params(web_service, start_date, end_date, api_key, lat, lon)
-
         try:
             # Returns JSON for loaded web_service.
             response = requests.get(url, params=params)
