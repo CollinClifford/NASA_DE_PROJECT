@@ -178,7 +178,7 @@ def create_table(cursor):
         wsa_id INTEGER,
         cmeid TEXT,
         speed TEXT,
-        ipsList TEXT,
+        ipsList JSONB,
         latitude TEXT,
         time21_5 TEXT,
         halfAngle TEXT,

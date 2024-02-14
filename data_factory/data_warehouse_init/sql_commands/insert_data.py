@@ -432,7 +432,7 @@ def insert_data(cursor):
             jsonb_array_elements(impactlist) as value;
 
         INSERT INTO donki.wsaenlilsimulations_cme_inputs (wsa_id, cmeid, speed, ipsList, latitude, time21_5, halfAngle, longitude, levelOfData, cmeStartTime, isMostAccurate)
-        SELECT id, value->>'cmeid', value->>'speed', value->>'ipsList', value->>'latitude', value->>'time21_5', value->>'halfAngle', value->>'longitude', value->>'levelOfData', value->>'cmeStartTime', value->>'isMostAccurate'
+        SELECT id, value->>'cmeid', value->>'speed', value->'ipsList', value->>'latitude', value->>'time21_5', value->>'halfAngle', value->>'longitude', value->>'levelOfData', value->>'cmeStartTime', value->>'isMostAccurate'
         FROM donki.wsaenlilsimulations_raw,
             jsonb_array_elements(cmeinputs) AS value;
 
