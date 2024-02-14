@@ -4,12 +4,10 @@ from dotenv import load_dotenv
 import os
 import logging
 from sql_commands.create_table import *
-from sql_commands.drop_table import *
+from sql_commands.drop_table import drop_table
 from functions.return_path import return_path
 from functions.web_services import web_services
 from functions.return_insert_function import return_insert_function
-from sql_commands.drop_view import drop_view
-from sql_commands.create_view import *
 from sql_commands.drop_schema import drop_schema
 from sql_commands.create_schema import create_schema
 
@@ -45,30 +43,9 @@ def main():
 
         logging.info("Connection successful.")
 
-        # Drop views.
-        drop_view(cursor, 'donki')
-
         # Drop tables.
         try:
-            dt_apod(cursor)
-            dt_cme(cursor)
-            dt_cme_analysis(cursor)
-            dt_gst(cursor)
-            dt_hss(cursor)
-            dt_ips(cursor)
-            dt_mpc(cursor)
-            dt_notifications(cursor)
-            dt_rbe(cursor)
-            dt_sep(cursor)
-            dt_wsaenlilsimulations(cursor)
-            dt_earth(cursor)
-            dt_epic_enhanced(cursor)
-            dt_epic_natural(cursor)
-            dt_mars_rover_photos_curiosity(cursor)
-            dt_mars_rover_photos_opportunity(cursor)
-            dt_mars_rover_photos_perseverance(cursor) 
-            dt_mars_rover_photos_spirit(cursor)
-            dt_neows(cursor)
+            drop_table(cursor)
             logging.info(f"Tables Successfully Dropped.")
         except Exception as e:
             logging.error(f"An error occured while dropping table: {e}")
@@ -125,28 +102,6 @@ def main():
             logging.info('Data successfully inserted.')
         except Exception as e:
             logging.error(f'An error occered while inserting data: {e}')
-
-        # Create views.
-        try:
-            create_wsa_il_vw(cursor)
-            create_wsa_cmei_vw(cursor)
-            sep_le_vw(cursor)
-            sep_i_vw(cursor)
-            rbe_le_vw(cursor)
-            rbe_i_vw(cursor)
-            mpc_le_vw(cursor)
-            mpc_i_vw(cursor)
-            ip_i_vw(cursor)
-            hss_le_vw(cursor)
-            hss_i_vw(cursor)
-            gst_le_vw(cursor)
-            cme_le_vw(cursor)
-            cme_a_vw(cursor)
-            gst_kpi_vw(cursor)
-            cme_i_vw(cursor)
-            logging.info('View successfully created.')
-        except Exception as e:
-            logging.error(f'An error occured while creating views: {e}')
 
         conn.commit()
         conn.close()
