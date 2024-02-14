@@ -3,13 +3,14 @@ import json
 from dotenv import load_dotenv
 import os
 import logging
-from sql_commands.create_table import *
+from sql_commands.create_table import create_table
 from sql_commands.drop_table import drop_table
 from functions.return_path import return_path
 from functions.web_services import web_services
 from functions.return_insert_function import return_insert_function
 from sql_commands.drop_schema import drop_schema
 from sql_commands.create_schema import create_schema
+from sql_commands.insert_data import insert_data
 
 logging.basicConfig(filename='logs/main.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -66,25 +67,7 @@ def main():
 
         # Runs through array of create table functions and triggers them.
         try:
-            ct_apod(cursor)
-            ct_cme(cursor)
-            ct_cme_analysis(cursor)
-            ct_gst(cursor)
-            ct_hss(cursor)
-            ct_ips(cursor)
-            ct_mpc(cursor)
-            ct_notifications(cursor)
-            ct_rbe(cursor)
-            ct_sep(cursor)
-            ct_wsaenlilsimulations(cursor)
-            ct_earth(cursor)
-            ct_epic_enhanced(cursor)
-            ct_epic_natural(cursor)
-            ct_mars_rover_photos_curiosity(cursor)
-            ct_mars_rover_photos_opportunity(cursor)
-            ct_mars_rover_photos_perseverance(cursor)
-            ct_mars_rover_photos_spirit(cursor)
-            ct_neows(cursor)
+            create_table(cursor)
             logging.info("Tables Successfully created.")
         except Exception as e:
             logging.error(f"An error occured while creating table: {e}")
@@ -103,6 +86,12 @@ def main():
         except Exception as e:
             logging.error(f'An error occered while inserting data: {e}')
 
+        # Inserts data into relational tables
+        try:
+            insert_data(cursor)
+            logging.info('Second batch of tables inserted.')
+        except Exception as e:
+            logging.error(f'Second batch of table inesrtion failed. {e}')
         conn.commit()
         conn.close()
         

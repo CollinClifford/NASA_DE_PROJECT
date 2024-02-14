@@ -423,3 +423,88 @@ def insert_epic_natural_data(cursor, data):
         """
     
     cursor.execute(insert_query, (identifier, caption, image, version, centroid_coordinates, dscovr_j2000_position, lunar_j2000_position, sun_j2000_position, attitude_quaternions, date, coords))
+
+def insert_data(cursor):
+    insert_query = """
+        INSERT INTO donki.wsaenlilsimulations_impact_list (wsa_id, location, arrival_time, is_glancing_blow)
+        SELECT id, value->>'location', value->>'arrivalTime', (value->>'isGlancingBlow')::BOOLEAN
+        FROM donki.wsaenlilsimulations_raw,
+            jsonb_array_elements(impactlist) as value;
+
+        INSERT INTO donki.wsaenlilsimulations_cme_inputs (wsa_id, cmeid, speed, ipsList, latitude, time21_5, halfAngle, longitude, levelOfData, cmeStartTime, isMostAccurate)
+        SELECT id, value->>'cmeid', value->>'speed', value->>'ipsList', value->>'latitude', value->>'time21_5', value->>'halfAngle', value->>'longitude', value->>'levelOfData', value->>'cmeStartTime', value->>'isMostAccurate'
+        FROM donki.wsaenlilsimulations_raw,
+            jsonb_array_elements(cmeinputs) AS value;
+
+        INSERT INTO donki.sep_linked_events (sep_id, activity_id)
+        SELECT id, value->>'activityID'
+        FROM donki.sep_raw,
+            jsonb_array_elements(linkedevents) AS value;
+
+        INSERT INTO donki.sep_instruments (sep_id, display_name)
+        SELECT id, value->>'displayName'
+        FROM donki.sep_raw,
+            jsonb_array_elements(instruments) AS value;
+
+        INSERT INTO donki.rbe_linked_events (rbe_id, activity_id)
+        SELECT id, value->>'activityID'
+        FROM donki.rbe_raw,
+            jsonb_array_elements(linkedevents) AS value;
+
+        INSERT INTO donki.rbe_instruments (rbe_id, display_name)
+        SELECT id, value->>'displayName'
+        FROM donki.rbe_raw,
+            jsonb_array_elements(instruments) AS value;
+
+        INSERT INTO donki.mpc_linked_events (mpc_id, activity_id)
+        SELECT id, value->>'activityID'
+        FROM donki.mpc_raw,
+            jsonb_array_elements(linkedevents) AS value;
+
+        INSERT INTO donki.mpc_instruments (mpc_id, display_name)
+        SELECT id, value->>'displayName'
+        FROM donki.mpc_raw,
+            jsonb_array_elements(instruments) AS value;
+
+        INSERT INTO donki.ips_instruments (ips_id, display_name)
+        SELECT id, value->>'displayName'
+        FROM donki.ips_raw,
+            jsonb_array_elements(instruments) AS value;
+
+        INSERT INTO donki.hss_linked_events (hss_id, activity_id)
+        SELECT id, value->>'activityID'
+        FROM donki.hss_raw,
+            jsonb_array_elements(linkedevents) AS value;
+
+        INSERT INTO donki.hss_instruments (hss_id, display_name)
+        SELECT id, value->>'displayName'
+        FROM donki.hss_raw,
+            jsonb_array_elements(instruments) AS value;
+
+        INSERT INTO donki.gst_linked_events (gst_id, activity_id)
+        SELECT id, value->>'activityID'
+        FROM donki.gst_raw,
+            jsonb_array_elements(linkedevents) AS value;
+
+        INSERT INTO donki.cme_linked_events (cme_id, activity_id)
+        SELECT id, value->>'activityID'
+        FROM donki.cme_raw,
+            jsonb_array_elements(linkedevents) AS value;
+
+        INSERT INTO donki.cme_cme_analyses (cme_id, link, note, type, speed, latitude, time21_5, enlil_list, half_angle, longitude, level_of_data, is_most_accurate)
+        SELECT id, value->>'link', value->>'note', value->>'type', value->>'speed', value->>'latitude', value->>'time21_5', value->>'enlilList', value->>'halfAngle', value->>'longitude', value->>'levelOfData', value->>'isMostAccurate'
+        FROM donki.cme_raw,
+            jsonb_array_elements(cmeanalyses) AS value;
+
+        INSERT INTO donki.gst_all_kp_index (gst_id, source, kp_index, observed_time)
+        SELECT id, value->>'source', value->>'kpIndex', value->>'observedTime'
+        FROM donki.gst_raw,
+            jsonb_array_elements(allkpindex) AS value;
+
+        INSERT INTO donki.cme_instruments (cme_id, display_name)
+        SELECT id, value->>'displayName'
+        FROM donki.cme_raw,
+            jsonb_array_elements(instruments) AS value;
+    """
+
+    cursor.execute(insert_query)
