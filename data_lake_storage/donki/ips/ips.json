@@ -310,5 +310,38 @@
         "displayName": "STEREO A: IMPACT"
       }
     ]
+  },
+  {
+    "catalog": "M2M_CATALOG",
+    "activityID": "2024-01-22T16:01:00-IPS-001",
+    "location": "Earth",
+    "eventTime": "2024-01-22T16:01Z",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/IPS/28687/-1",
+    "instruments": [
+      {
+        "displayName": "DSCOVR: PLASMAG"
+      },
+      {
+        "displayName": "ACE: SWEPAM"
+      },
+      {
+        "displayName": "ACE: MAG"
+      }
+    ]
+  },
+  {
+    "catalog": "M2M_CATALOG",
+    "activityID": "2024-01-23T00:50:00-IPS-001",
+    "location": "STEREO A",
+    "eventTime": "2024-01-23T00:50Z",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/IPS/28774/-1",
+    "instruments": [
+      {
+        "displayName": "STEREO A: IMPACT"
+      },
+      {
+        "displayName": "STEREO A: PLASTIC"
+      }
+    ]
   }
 ]

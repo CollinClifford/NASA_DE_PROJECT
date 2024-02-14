@@ -376,5 +376,53 @@
     "service_version": "v1",
     "title": "A January Wolf Moon",
     "url": "https://apod.nasa.gov/apod/image/2402/WolfMoon_Zegarski_960.jpg"
+  },
+  {
+    "date": "2024-01-19",
+    "explanation": "Jupiter, our Solar System's ruling gas giant, is also the fastest spinning planet, rotating once in less than 10 hours. The gas giant doesn't rotate like a solid body though. A day on Jupiter is about 9 hours and 56 minutes long at the poles, decreasing to 9 hours and 50 minutes near the equator. The giant planet's fast rotation creates strong jet streams, separating its clouds into planet girdling bands of dark belts and bright zones. You can easily follow Jupiter's rapid rotation in this sharp sequence of images from the night of January 15, all taken with a camera and small telescope outside of Paris, France. Located just south of the equator, the giant planet's giant storm system, also known as the Great Red Spot, can be seen moving left to right with the planet's rotation. From lower left to upper right, the sequence spans about 2 hours and 30 minutes.",
+    "hdurl": "https://apod.nasa.gov/apod/image/2401/2024_01_15-Jup-2h30-Chronograph.png",
+    "media_type": "image",
+    "service_version": "v1",
+    "title": "Jupiter over 2 Hours and 30 Minutes",
+    "url": "https://apod.nasa.gov/apod/image/2401/2024_01_15-Jup-2h30-Chronograph600.png"
+  },
+  {
+    "copyright": "Dennis Huff",
+    "date": "2024-01-20",
+    "explanation": "The December 28 night launch of a Falcon Heavy rocket from Kennedy Space Center in Florida marked the fifth launch for the rocket's reusable side boosters. About 2 minutes 20 seconds into the flight, the two side boosters separated from the rocket's core stage. Starting just after booster separation, this three minute long exposure captures the pair's remarkable boostback burns, maneuvers executed prior to their return to landing zones on planet Earth. While no attempt was made to recover the Falcon Heavy's core stage, both side boosters landed successfully and can be flown again. The four previous flights for these side boosters included last October's launch of NASA's asteroid-bound Psyche mission. Their next planned flight is on the Europa Clipper mission scheduled for launch in October 2024.",
+    "hdurl": "https://apod.nasa.gov/apod/image/2401/DSC07781_11Huff.jpg",
+    "media_type": "image",
+    "service_version": "v1",
+    "title": "Falcon Heavy Boostback Burn",
+    "url": "https://apod.nasa.gov/apod/image/2401/DSC07781_12Huff800.jpg"
+  },
+  {
+    "date": "2024-01-21",
+    "explanation": "Yes, but can your blizzard do this? In the Upper Peninsula of Michigan's Storm of the Century in 1938, some snow drifts reached the level of utility poles. Nearly a meter of new and unexpected snow fell over two days in a storm that started 86 years ago this week.  As snow fell and gale-force winds piled snow to surreal heights, many roads became not only impassable but unplowable; people became stranded, cars, school buses and a train became mired, and even a dangerous fire raged. Two people were killed and some students were forced to spend several consecutive days at school.  The featured image was taken by a local resident soon after the storm. Although all of this snow eventually melted, repeated snow storms like this help build lasting glaciers in snowy regions of our planet Earth.",
+    "hdurl": "https://apod.nasa.gov/apod/image/2401/snowpoles_brinkman_960.jpg",
+    "media_type": "image",
+    "service_version": "v1",
+    "title": "The Upper Michigan Blizzard of 1938",
+    "url": "https://apod.nasa.gov/apod/image/2401/snowpoles_brinkman_960.jpg"
+  },
+  {
+    "copyright": "\nEnzo Massa Micon\n",
+    "date": "2024-01-22",
+    "explanation": "Can the Moon and a mountain really cast similar shadows? Yes, but the division between light and dark does not have to be aligned. Pictured, a quarter moon was captured above the mountain Grivola in Italy in early October of 2022.  The Sun is to the right of the featured picturesque landscape, illuminating the right side of the Moon in a similar way that it illuminates the right side of the mountain. This lunar phase is called \"quarter\", in part, because the lit fraction visible from Earth is one quarter of the entire lunar surface.  Digital post-processing of this single exposure gave both  gigantic objects more prominence. Capturing the terminator of this quarter moon in close alignment with nearly vertical mountain ridge required careful timing because the Earth rotates once a day.",
+    "hdurl": "https://apod.nasa.gov/apod/image/2401/GrivolaMoon_Micon_1600.jpg",
+    "media_type": "image",
+    "service_version": "v1",
+    "title": "Shadows of Mountain and Moon",
+    "url": "https://apod.nasa.gov/apod/image/2401/GrivolaMoon_Micon_1080.jpg"
+  },
+  {
+    "copyright": "\nAlistair Symon\n",
+    "date": "2024-01-23",
+    "explanation": "How well do you know the night sky? OK, but how well can you identify famous sky objects in a very deep image? Either way, here is a test: see if you can find some well-known night-sky icons in a deep image filled with faint nebulosity.  This image contains the Pleiades star cluster, Barnard's Loop, Horsehead Nebula, Orion Nebula, Rosette Nebula, Cone Nebula, Rigel, Jellyfish Nebula, Monkey Head Nebula, Flaming Star Nebula, Tadpole Nebula, Aldebaran, Simeis 147, Seagull Nebula and the California Nebula. To find their real locations, here is an annotated image version.  The reason this task might be difficult is similar to the reason it is initially hard to identify familiar constellations in a very dark sky: the tapestry of our night sky has an extremely deep hidden complexity.  The featured composite reveals some of this complexity in a mosaic of 28 images taken over 800 hours from dark skies over Arizona, USA.",
+    "hdurl": "https://apod.nasa.gov/apod/image/2401/SeagullToCalifornia_Symon_2000.jpg",
+    "media_type": "image",
+    "service_version": "v1",
+    "title": "Deep Nebulas: From Seagull to California",
+    "url": "https://apod.nasa.gov/apod/image/2401/SeagullToCalifornia_Symon_960.jpg"
   }
 ]
