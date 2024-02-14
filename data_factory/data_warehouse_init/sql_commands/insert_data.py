@@ -12,16 +12,16 @@ def insert_apod_data(cursor, data):
     cursor.execute(insert_query, values)
 
 def insert_neows_data(cursor, data):
+    return
+    # date = data['date']
+    # data_json = json.dumps(data)
 
-    date = data['date']
-    data_json = json.dumps(data)
+    # insert_query = f"""
+    #     INSERT INTO neows.neows_raw (date, objects)
+    #     VALUES (%s, %s);
+    #     """
 
-    insert_query = f"""
-        INSERT INTO neows.neows_raw (date, objects)
-        VALUES (%s, %s);
-        """
-
-    cursor.execute(insert_query, (date, data_json))
+    # cursor.execute(insert_query, (date, data_json))
 
 def insert_cme_data(cursor, data):
 
