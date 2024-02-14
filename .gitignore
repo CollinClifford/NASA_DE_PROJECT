@@ -11,5 +11,3 @@ __pycache__/
 *.pyo
 *.pyd
 *.db
-
-data_lake_storage/apod/apod.json
