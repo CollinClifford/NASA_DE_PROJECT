@@ -4,7 +4,7 @@ def create_schema(cursor):
         CREATE SCHEMA IF NOT EXISTS donki;
         CREATE SCHEMA IF NOT EXISTS earth;
         CREATE SCHEMA IF NOT EXISTS epic;
-        CREATE SCHEMA IF NOT EXISTS mars_rover_photo;
+        CREATE SCHEMA IF NOT EXISTS mars_rover_photos;
         CREATE SCHEMA IF NOT EXISTS neows;
     """
 

@@ -13527,5 +13527,75 @@
       }
     ],
     "linkedEvents": null
+  },
+  {
+    "activityID": "2024-02-14T04:09:00-CME-001",
+    "catalog": "M2M_CATALOG",
+    "startTime": "2024-02-14T04:09Z",
+    "sourceLocation": "",
+    "activeRegionNum": null,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CME/29223/-1",
+    "note": "Partial halo CME directed to the SW in SOHO LASCO C2/C3 and STEREO A COR2. The source is believed to be on the far side, as an opening field lines and an EUV wave visible in SDO AIA 171 starting at 2024-02-14T03:51Z. EUV wave is best seen in SDO AIA 193 and GOES SUVI 284. The eruption is faintly seen in STEREO A EUV 195 beyond the SW limb. A possible candidate Active Region is AR 3575, which rotated off of the Earth-facing disk on 2024-02-07 and produced several M-class flares during it's time on the disk.",
+    "instruments": [
+      {
+        "displayName": "STEREO A: SECCHI/COR2"
+      },
+      {
+        "displayName": "SOHO: LASCO/C2"
+      },
+      {
+        "displayName": "SOHO: LASCO/C3"
+      }
+    ],
+    "cmeAnalyses": [
+      {
+        "time21_5": "2024-02-14T05:45Z",
+        "latitude": -38.0,
+        "longitude": 168.0,
+        "halfAngle": 43.0,
+        "speed": 2012.0,
+        "type": "R",
+        "isMostAccurate": true,
+        "note": "Measurement of leading edge using SOHO LASCO C3 and STEREO A COR2. The bulk of the CME is wider than the shock, which extends to almost a full halo in the coronagraphs.",
+        "levelOfData": 0,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29224/-1",
+        "enlilList": [
+          {
+            "modelCompletionTime": "2024-02-14T14:24Z",
+            "au": 2.0,
+            "estimatedShockArrivalTime": null,
+            "estimatedDuration": null,
+            "rmin_re": null,
+            "kp_18": null,
+            "kp_90": null,
+            "kp_135": null,
+            "kp_180": null,
+            "isEarthGB": false,
+            "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/29225/-1",
+            "impactList": [
+              {
+                "isGlancingBlow": false,
+                "location": "Parker Solar Probe",
+                "arrivalTime": "2024-02-15T11:00Z"
+              },
+              {
+                "isGlancingBlow": true,
+                "location": "Mars",
+                "arrivalTime": "2024-02-17T01:00Z"
+              },
+              {
+                "isGlancingBlow": true,
+                "location": "OSIRIS-APEX",
+                "arrivalTime": "2024-02-15T16:00Z"
+              }
+            ],
+            "cmeIDs": [
+              "2024-02-14T04:09:00-CME-001"
+            ]
+          }
+        ]
+      }
+    ],
+    "linkedEvents": null
   }
 ]

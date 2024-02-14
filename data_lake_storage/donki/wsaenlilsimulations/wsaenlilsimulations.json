@@ -5784,5 +5784,102 @@
       }
     ],
     "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/28739/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/29220/1",
+    "modelCompletionTime": "2024-02-13T20:54Z",
+    "au": 5.5,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-02-12T14:12Z",
+        "latitude": 15.0,
+        "longitude": -119.0,
+        "speed": 750.0,
+        "halfAngle": 49.0,
+        "time21_5": "2024-02-12T19:09Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-02-12T14:12:00-CME-001"
+      },
+      {
+        "cmeStartTime": "2024-02-12T22:18Z",
+        "latitude": 14.0,
+        "longitude": -116.0,
+        "speed": 999.0,
+        "halfAngle": 50.0,
+        "time21_5": "2024-02-13T00:28Z",
+        "isMostAccurate": true,
+        "levelOfData": 1,
+        "ipsList": [],
+        "cmeid": "2024-02-12T22:18:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": [
+      {
+        "isGlancingBlow": false,
+        "location": "Juno",
+        "arrivalTime": "2024-02-26T15:00Z"
+      },
+      {
+        "isGlancingBlow": true,
+        "location": "Parker Solar Probe",
+        "arrivalTime": "2024-02-14T15:00Z"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/29220/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/29225/1",
+    "modelCompletionTime": "2024-02-14T14:24Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-02-14T04:09Z",
+        "latitude": -38.0,
+        "longitude": 168.0,
+        "speed": 2012.0,
+        "halfAngle": 43.0,
+        "time21_5": "2024-02-14T05:45Z",
+        "isMostAccurate": true,
+        "levelOfData": 0,
+        "ipsList": [],
+        "cmeid": "2024-02-14T04:09:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": [
+      {
+        "isGlancingBlow": false,
+        "location": "Parker Solar Probe",
+        "arrivalTime": "2024-02-15T11:00Z"
+      },
+      {
+        "isGlancingBlow": true,
+        "location": "Mars",
+        "arrivalTime": "2024-02-17T01:00Z"
+      },
+      {
+        "isGlancingBlow": true,
+        "location": "OSIRIS-APEX",
+        "arrivalTime": "2024-02-15T16:00Z"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/29225/-1"
   }
 ]

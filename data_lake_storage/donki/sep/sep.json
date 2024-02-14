@@ -551,5 +551,16 @@
       }
     ],
     "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/SEP/28703/-1"
+  },
+  {
+    "sepID": "2024-02-14T02:41:00-SEP-001",
+    "eventTime": "2024-02-14T02:41Z",
+    "instruments": [
+      {
+        "displayName": "STEREO A: IMPACT 13-100 MeV"
+      }
+    ],
+    "linkedEvents": null,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/SEP/29216/-1"
   }
 ]
