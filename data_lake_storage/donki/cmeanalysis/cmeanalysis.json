@@ -2286,5 +2286,31 @@
     "note": "Measurement of the leading edge using potential source beyond east limb and best fit between SOHO LASCO C2/C3 and STEREO A COR2.",
     "catalog": "M2M_CATALOG",
     "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29235/-1"
+  },
+  {
+    "time21_5": "2024-02-15T21:34Z",
+    "latitude": 9.0,
+    "longitude": -90.0,
+    "halfAngle": 19.0,
+    "speed": 276.0,
+    "type": "S",
+    "isMostAccurate": true,
+    "associatedCMEID": "2024-02-15T08:36:00-CME-001",
+    "note": "Measurement of the diffuse leading edge using source location as seen in UV imagery.",
+    "catalog": "M2M_CATALOG",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29241/-1"
+  },
+  {
+    "time21_5": "2024-02-15T11:06Z",
+    "latitude": -22.0,
+    "longitude": -173.0,
+    "halfAngle": 45.0,
+    "speed": 1953.0,
+    "type": "O",
+    "isMostAccurate": true,
+    "associatedCMEID": "2024-02-15T09:24:00-CME-001",
+    "note": "Measurement using best fit between coronagraphs. Tricky fit in STEREO A COR2.",
+    "catalog": "M2M_CATALOG",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29245/-1"
   }
 ]

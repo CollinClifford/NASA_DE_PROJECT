@@ -13705,5 +13705,110 @@
       }
     ],
     "linkedEvents": null
+  },
+  {
+    "activityID": "2024-02-15T01:36:00-CME-001",
+    "catalog": "M2M_CATALOG",
+    "startTime": "2024-02-15T01:36Z",
+    "sourceLocation": "",
+    "activeRegionNum": null,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CME/29242/-1",
+    "note": "Diffuse CME seen to the SW in SOHO LASCO C2/C3 and STEREO A COR2. Source is uncertain but may possibly be opening field lines on SW limb starting around: 2024-02-15T01:00Z seen in SDO AIA 171, or at 02:33Z seen in SDO AIA 193, or (less likely) opening field lines at 2024-02-15T22:42Z in SDO AIA 193 and related dimming seen centered at W70N10 at 2024-02-15T00:36Z.",
+    "instruments": [
+      {
+        "displayName": "SOHO: LASCO/C2"
+      },
+      {
+        "displayName": "SOHO: LASCO/C3"
+      },
+      {
+        "displayName": "STEREO A: SECCHI/COR2"
+      }
+    ],
+    "cmeAnalyses": [
+      {
+        "time21_5": "2024-02-15T12:20Z",
+        "latitude": -27.0,
+        "longitude": null,
+        "halfAngle": 37.0,
+        "speed": 357.0,
+        "type": "S",
+        "isMostAccurate": true,
+        "note": "Plane of Sky measurement of diffuse leading edge, since source location is uncertain.",
+        "levelOfData": 0,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29243/-1",
+        "enlilList": null
+      }
+    ],
+    "linkedEvents": null
+  },
+  {
+    "activityID": "2024-02-15T08:36:00-CME-001",
+    "catalog": "M2M_CATALOG",
+    "startTime": "2024-02-15T08:36Z",
+    "sourceLocation": "N25E90",
+    "activeRegionNum": 13568,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CME/29240/-1",
+    "note": "Faint loop CME seen to the NE in SOHO LASCO C2 and STEREO A COR2. Source is a rising loop and ejecta centered at N25E90 seen starting at 2024-02-15T07:42Z in SDO AIA 304. Opening field lines, rising loop, and post-eruptive arcades seen in SDO AIA 193. This CME is quickly overtaken by a large halo CME after a few frames in C2 and COR2A.",
+    "instruments": [
+      {
+        "displayName": "SOHO: LASCO/C2"
+      },
+      {
+        "displayName": "STEREO A: SECCHI/COR2"
+      }
+    ],
+    "cmeAnalyses": [
+      {
+        "time21_5": "2024-02-15T21:34Z",
+        "latitude": 9.0,
+        "longitude": -90.0,
+        "halfAngle": 19.0,
+        "speed": 276.0,
+        "type": "S",
+        "isMostAccurate": true,
+        "note": "Measurement of the diffuse leading edge using source location as seen in UV imagery.",
+        "levelOfData": 0,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29241/-1",
+        "enlilList": null
+      }
+    ],
+    "linkedEvents": null
+  },
+  {
+    "activityID": "2024-02-15T09:24:00-CME-001",
+    "catalog": "M2M_CATALOG",
+    "startTime": "2024-02-15T09:24Z",
+    "sourceLocation": "",
+    "activeRegionNum": null,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CME/29244/-1",
+    "note": "Halo CME seen to the South in SOHO LASCO C2/C3 and STEREO A COR2. Source is rising loop and widely opening field lines seen beyond S limb starting at 2024-02-15T09:06Z in SDO AIA 171, GOES SUVI 193/284/304. EUV wave seen extending to about S55 on the Earth-facing disk in SDO AIA 193 and GOES SUVI 195. Additional outflow seen emerging from beyond the S limb in SDO AIA 171 at 09:21Z.",
+    "instruments": [
+      {
+        "displayName": "SOHO: LASCO/C2"
+      },
+      {
+        "displayName": "SOHO: LASCO/C3"
+      },
+      {
+        "displayName": "STEREO A: SECCHI/COR2"
+      }
+    ],
+    "cmeAnalyses": [
+      {
+        "time21_5": "2024-02-15T11:06Z",
+        "latitude": -22.0,
+        "longitude": -173.0,
+        "halfAngle": 45.0,
+        "speed": 1953.0,
+        "type": "O",
+        "isMostAccurate": true,
+        "note": "Measurement using best fit between coronagraphs. Tricky fit in STEREO A COR2.",
+        "levelOfData": 0,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29245/-1",
+        "enlilList": null
+      }
+    ],
+    "linkedEvents": null
   }
 ]
