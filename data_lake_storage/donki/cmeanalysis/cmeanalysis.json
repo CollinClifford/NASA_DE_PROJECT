@@ -2260,5 +2260,31 @@
     "note": "Measurement of leading edge using SOHO LASCO C3 and STEREO A COR2. The bulk of the CME is wider than the shock, which extends to almost a full halo in the coronagraphs.",
     "catalog": "M2M_CATALOG",
     "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29224/-1"
+  },
+  {
+    "time21_5": "2024-02-14T11:56Z",
+    "latitude": 4.0,
+    "longitude": -70.0,
+    "halfAngle": 27.0,
+    "speed": 352.0,
+    "type": "S",
+    "isMostAccurate": true,
+    "associatedCMEID": "2024-02-14T02:12:00-CME-001",
+    "note": "This measurement is approximate. The CME was difficult to measure between SOHO LASCO C3 and STEREO A COR2 due to the faintness of the leading edge.",
+    "catalog": "M2M_CATALOG",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29231/-1"
+  },
+  {
+    "time21_5": "2024-02-14T19:01Z",
+    "latitude": 19.0,
+    "longitude": -129.0,
+    "halfAngle": 16.0,
+    "speed": 428.0,
+    "type": "S",
+    "isMostAccurate": true,
+    "associatedCMEID": "2024-02-14T11:24:00-CME-001",
+    "note": "Measurement of the leading edge using potential source beyond east limb and best fit between SOHO LASCO C2/C3 and STEREO A COR2.",
+    "catalog": "M2M_CATALOG",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29235/-1"
   }
 ]

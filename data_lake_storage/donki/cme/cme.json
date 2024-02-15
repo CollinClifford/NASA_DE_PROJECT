@@ -13597,5 +13597,113 @@
       }
     ],
     "linkedEvents": null
+  },
+  {
+    "activityID": "2024-02-14T02:12:00-CME-001",
+    "catalog": "M2M_CATALOG",
+    "startTime": "2024-02-14T02:12Z",
+    "sourceLocation": "S10E70",
+    "activeRegionNum": null,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CME/29230/-1",
+    "note": "Faint CME visible to the east in SOHO LASCO C2/C3 and STEREO A COR2. The start time is approximate due to the faintness in SOHO LASCO C3. A candidate source eruption is seen around S10E70, best characterized by brightening and opening field lines best seen in SDO AIA 171/193. Following the event, post-eruptive arcades are visible in STEREO A EUV 195 and SDO AIA 304.",
+    "instruments": [
+      {
+        "displayName": "SOHO: LASCO/C2"
+      },
+      {
+        "displayName": "SOHO: LASCO/C3"
+      },
+      {
+        "displayName": "STEREO A: SECCHI/COR2"
+      }
+    ],
+    "cmeAnalyses": [
+      {
+        "time21_5": "2024-02-14T11:56Z",
+        "latitude": 4.0,
+        "longitude": -70.0,
+        "halfAngle": 27.0,
+        "speed": 352.0,
+        "type": "S",
+        "isMostAccurate": true,
+        "note": "This measurement is approximate. The CME was difficult to measure between SOHO LASCO C3 and STEREO A COR2 due to the faintness of the leading edge.",
+        "levelOfData": 0,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29231/-1",
+        "enlilList": null
+      }
+    ],
+    "linkedEvents": null
+  },
+  {
+    "activityID": "2024-02-14T08:48:00-CME-001",
+    "catalog": "M2M_CATALOG",
+    "startTime": "2024-02-14T08:48Z",
+    "sourceLocation": "",
+    "activeRegionNum": null,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CME/29236/-1",
+    "note": "Very faint CME visible to the NE in SOHO LASCO C2/C3. The CME is not clearly visible in STEREO A COR2. There is no clear source candidate for this CME. There is a small eruption around N20E25 starting around 2024-02-14T07:20Z in SDO AIA 131/171/193/304, but this eruption appears to be deflected more northward. There may also be faint field line movement seen beyond the NE limb in SDO AIA 171, suggesting a far sided source.",
+    "instruments": [
+      {
+        "displayName": "SOHO: LASCO/C2"
+      },
+      {
+        "displayName": "SOHO: LASCO/C3"
+      },
+      {
+        "displayName": "STEREO A: SECCHI/COR2"
+      }
+    ],
+    "cmeAnalyses": [
+      {
+        "time21_5": "2024-02-14T19:13Z",
+        "latitude": 36.0,
+        "longitude": null,
+        "halfAngle": 39.0,
+        "speed": 341.0,
+        "type": "S",
+        "isMostAccurate": true,
+        "note": "Plane of sky measurement using SOHO LASCO C2 difference imagery in SWPC_CAT only due to the CME's faintness. The plane of sky measurement was chosen due to lack of clear source location.",
+        "levelOfData": 0,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29237/-1",
+        "enlilList": null
+      }
+    ],
+    "linkedEvents": null
+  },
+  {
+    "activityID": "2024-02-14T11:24:00-CME-001",
+    "catalog": "M2M_CATALOG",
+    "startTime": "2024-02-14T11:24Z",
+    "sourceLocation": "",
+    "activeRegionNum": null,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CME/29234/-1",
+    "note": "CME visible to the NE in SOHO LASCO C2/C3 and STEREO A COR2. The source is likely on the far side, as no clear candidate is on the Earth-facing disk. Opening field lines can be seen on the NE limb in SDO AIA 171 around 2024-02-14T10:51Z.",
+    "instruments": [
+      {
+        "displayName": "SOHO: LASCO/C2"
+      },
+      {
+        "displayName": "SOHO: LASCO/C3"
+      },
+      {
+        "displayName": "STEREO A: SECCHI/COR2"
+      }
+    ],
+    "cmeAnalyses": [
+      {
+        "time21_5": "2024-02-14T19:01Z",
+        "latitude": 19.0,
+        "longitude": -129.0,
+        "halfAngle": 16.0,
+        "speed": 428.0,
+        "type": "S",
+        "isMostAccurate": true,
+        "note": "Measurement of the leading edge using potential source beyond east limb and best fit between SOHO LASCO C2/C3 and STEREO A COR2.",
+        "levelOfData": 0,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29235/-1",
+        "enlilList": null
+      }
+    ],
+    "linkedEvents": null
   }
 ]
