@@ -6316,5 +6316,110 @@
       }
     ],
     "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/29271/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/29280/1",
+    "modelCompletionTime": "2024-02-17T15:13Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-02-17T13:16Z",
+        "latitude": -52.0,
+        "longitude": -152.0,
+        "speed": 1651.0,
+        "halfAngle": 37.0,
+        "time21_5": "2024-02-17T15:42Z",
+        "isMostAccurate": false,
+        "levelOfData": 1,
+        "ipsList": [],
+        "cmeid": "2024-02-17T13:16:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": [
+      {
+        "isGlancingBlow": true,
+        "location": "Parker Solar Probe",
+        "arrivalTime": "2024-02-19T14:00Z"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/29280/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/29285/1",
+    "modelCompletionTime": "2024-02-17T16:45Z",
+    "au": 2.0,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-02-17T13:16Z",
+        "latitude": -42.0,
+        "longitude": -146.0,
+        "speed": 1373.0,
+        "halfAngle": 44.0,
+        "time21_5": "2024-02-17T16:06Z",
+        "isMostAccurate": true,
+        "levelOfData": 1,
+        "ipsList": [],
+        "cmeid": "2024-02-17T13:16:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": [
+      {
+        "isGlancingBlow": true,
+        "location": "Parker Solar Probe",
+        "arrivalTime": "2024-02-19T07:00Z"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/29285/-1"
+  },
+  {
+    "simulationID": "WSA-ENLIL/29287/1",
+    "modelCompletionTime": "2024-02-17T17:01Z",
+    "au": 5.5,
+    "cmeInputs": [
+      {
+        "cmeStartTime": "2024-02-17T13:16Z",
+        "latitude": -42.0,
+        "longitude": -146.0,
+        "speed": 1373.0,
+        "halfAngle": 44.0,
+        "time21_5": "2024-02-17T16:06Z",
+        "isMostAccurate": true,
+        "levelOfData": 1,
+        "ipsList": [],
+        "cmeid": "2024-02-17T13:16:00-CME-001"
+      }
+    ],
+    "estimatedShockArrivalTime": null,
+    "estimatedDuration": null,
+    "rmin_re": null,
+    "kp_18": null,
+    "kp_90": null,
+    "kp_135": null,
+    "kp_180": null,
+    "isEarthGB": false,
+    "impactList": [
+      {
+        "isGlancingBlow": true,
+        "location": "Parker Solar Probe",
+        "arrivalTime": "2024-02-19T07:00Z"
+      }
+    ],
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/29287/-1"
   }
 ]

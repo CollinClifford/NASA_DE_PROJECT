@@ -2403,5 +2403,18 @@
     "note": "Measurement based on the source location. Due to a data gap in STEREO A COR2 imagery, stereoscopic viewpoints were not available for this measurement.",
     "catalog": "M2M_CATALOG",
     "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29275/-1"
+  },
+  {
+    "time21_5": "2024-02-17T15:35Z",
+    "latitude": -23.0,
+    "longitude": -168.0,
+    "halfAngle": 45.0,
+    "speed": 1646.0,
+    "type": "O",
+    "isMostAccurate": true,
+    "associatedCMEID": "2024-02-17T13:16:00-CME-001",
+    "note": "Approximate measurement of wider fainter shock of this CME based on fit in one coronagraph (SOHO LASCO). No STEREO A COR2 imagery is available for this event at the time because of a data gap from 2024-02-17T11:55Z.",
+    "catalog": "M2M_CATALOG",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29284/-1"
   }
 ]
