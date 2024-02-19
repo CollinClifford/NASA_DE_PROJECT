@@ -2416,5 +2416,44 @@
     "note": "Approximate measurement of wider fainter shock of this CME based on fit in one coronagraph (SOHO LASCO). No STEREO A COR2 imagery is available for this event at the time because of a data gap from 2024-02-17T11:55Z.",
     "catalog": "M2M_CATALOG",
     "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29284/-1"
+  },
+  {
+    "time21_5": "2024-02-18T08:57Z",
+    "latitude": -59.0,
+    "longitude": -130.0,
+    "halfAngle": 24.0,
+    "speed": 660.0,
+    "type": "C",
+    "isMostAccurate": true,
+    "associatedCMEID": "2024-02-18T03:12:00-CME-001",
+    "note": "Measurement based on source location beyond limb and best fit between SOHO C3 and STEREO A COR2 in SWPC_CAT. StereoCat measurement also agrees with this longitude.",
+    "catalog": "M2M_CATALOG",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29298/-1"
+  },
+  {
+    "time21_5": "2024-02-18T12:54Z",
+    "latitude": -54.0,
+    "longitude": -136.0,
+    "halfAngle": 35.0,
+    "speed": 1164.0,
+    "type": "O",
+    "isMostAccurate": true,
+    "associatedCMEID": "2024-02-18T10:00:00-CME-001",
+    "note": "Measurement of the leading edge of the bulk of the CME based on best fit between SOHO LASCO C3 and STEREO A COR2 as well as potential source location of old AR 3575, currently around approximately -135 to -130 degrees longitude.",
+    "catalog": "M2M_CATALOG",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29294/-1"
+  },
+  {
+    "time21_5": "2024-02-19T15:24Z",
+    "latitude": 63.0,
+    "longitude": -107.0,
+    "halfAngle": 33.0,
+    "speed": 344.0,
+    "type": "S",
+    "isMostAccurate": true,
+    "associatedCMEID": "2024-02-19T02:36:00-CME-001",
+    "note": "StereoCAT imagery also obtains similar parameters using SOHO LASCO C3 and STEREO A COR2 imagery.",
+    "catalog": "M2M_CATALOG",
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29304/-1"
   }
 ]
