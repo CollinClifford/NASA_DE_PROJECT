@@ -473,6 +473,7 @@
     "service_version": "v1",
     "title": "Hoag's Object: A Nearly Perfect Ring Galaxy",
     "url": "https://apod.nasa.gov/apod/image/2402/Hoag_HubbleBlanco_1080.jpg"
+<<<<<<< HEAD
   },
   {
     "date": "2024-02-19",
@@ -482,5 +483,7 @@
     "thumbnail_url": "https://img.youtube.com/vi/x-wX-wClfig/0.jpg",
     "title": "Looking Sideways from the Parker Solar Probe",
     "url": "https://www.youtube.com/embed/x-wX-wClfig?rel=0"
+=======
+>>>>>>> aebf4e4c8e967f4183d9e84445121db584743b06
   }
 ]

@@ -2442,6 +2442,7 @@
     "note": "Measurement of the leading edge of the bulk of the CME based on best fit between SOHO LASCO C3 and STEREO A COR2 as well as potential source location of old AR 3575, currently around approximately -135 to -130 degrees longitude.",
     "catalog": "M2M_CATALOG",
     "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29294/-1"
+<<<<<<< HEAD
   },
   {
     "time21_5": "2024-02-19T15:24Z",
@@ -2455,5 +2456,7 @@
     "note": "StereoCAT imagery also obtains similar parameters using SOHO LASCO C3 and STEREO A COR2 imagery.",
     "catalog": "M2M_CATALOG",
     "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/29304/-1"
+=======
+>>>>>>> aebf4e4c8e967f4183d9e84445121db584743b06
   }
 ]

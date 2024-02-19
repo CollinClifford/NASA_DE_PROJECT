@@ -36412,6 +36412,7 @@
         "neo_reference_id": "54427172",
         "name": "(2024 CA8)",
         "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=54427172",
+<<<<<<< HEAD
         "absolute_magnitude_h": 24.283,
         "estimated_diameter": {
           "kilometers": {
@@ -36429,6 +36430,25 @@
           "feet": {
             "estimated_diameter_min": 121.3221303942,
             "estimated_diameter_max": 271.2845307366
+=======
+        "absolute_magnitude_h": 24.275,
+        "estimated_diameter": {
+          "kilometers": {
+            "estimated_diameter_min": 0.037115471,
+            "estimated_diameter_max": 0.0829927163
+          },
+          "meters": {
+            "estimated_diameter_min": 37.1154710369,
+            "estimated_diameter_max": 82.9927162554
+          },
+          "miles": {
+            "estimated_diameter_min": 0.0230624774,
+            "estimated_diameter_max": 0.0515692671
+          },
+          "feet": {
+            "estimated_diameter_min": 121.7699219966,
+            "estimated_diameter_max": 272.2858231992
+>>>>>>> aebf4e4c8e967f4183d9e84445121db584743b06
           }
         },
         "is_potentially_hazardous_asteroid": false,
@@ -36438,6 +36458,7 @@
             "close_approach_date_full": "2024-Feb-18 01:43",
             "epoch_date_close_approach": 1708220580000,
             "relative_velocity": {
+<<<<<<< HEAD
               "kilometers_per_second": "26.079004996",
               "kilometers_per_hour": "93884.4179856374",
               "miles_per_hour": "58336.1262755757"
@@ -37432,6 +37453,17 @@
               "lunar": "1.1722937843",
               "kilometers": "450829.442533469",
               "miles": "280132.4256771122"
+=======
+              "kilometers_per_second": "26.0751417974",
+              "kilometers_per_hour": "93870.5104705439",
+              "miles_per_hour": "58327.4846865443"
+            },
+            "miss_distance": {
+              "astronomical": "0.0194971866",
+              "lunar": "7.5844055874",
+              "kilometers": "2916737.586352542",
+              "miles": "1812376.6951353996"
+>>>>>>> aebf4e4c8e967f4183d9e84445121db584743b06
             },
             "orbiting_body": "Earth"
           }
